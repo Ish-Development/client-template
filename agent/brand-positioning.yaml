@@ -19,3 +19,5 @@ pov: >
   # The one sharp thing we believe that competitors don't, or won't say.
 do_not_compete_with:
   -
+signed_off:
+  # Date the client approved the positioning, YYYY-MM-DD.

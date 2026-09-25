@@ -41,8 +41,7 @@ Tasks
 - growth review after launch: use the growth-review skill
 - research: follow agent/research-agent.md and agent/research-brief.md
 - "workshop done" or a workshop board link: use the workshop skill
-- positioning: use positioning. Claude drafts brand-positioning, values, ICP, buying
-  committee, triggers from research and the workshop. Flag conflicts, the team decides.
+- positioning: use the positioning skill
 - tone of voice: use tone_of_voice. Claude drafts VOICE.md and STYLE.md from research,
   the team edits. Use Compound Writing skills (cw-voice-check, cw-save) to refine.
 - visual identity: use visual_identity. Designers create it in Figma. Claude only reads it:

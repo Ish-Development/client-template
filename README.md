@@ -73,8 +73,9 @@ Research, brand, and design loop. Start with research, go back whenever you need
 3. Workshop: run the growth workshop in FigJam. Then say "workshop done" with the board link.
    Claude reads each block into /agent as hypotheses and lists what is empty or unclear.
 4. Research, deep: after the workshop, to test it.
-5. Positioning: say "positioning". Claude drafts who it's for, category, enemy, POV, and the
-   buyers from research and the workshop. You decide.
+5. Positioning: say "positioning". Claude validates what research confirms, asks you each
+   open decision one at a time, and writes 3 options for the one-liner, difference, and POV.
+   Ends with human/positioning-summary.md for the client to sign off.
 6. Site plan: say "site structure". Every page gets one job, one next action, one measure.
 7. Tone of voice: say "tone of voice". Claude drafts VOICE.md and STYLE.md. You edit.
 8. Copy: we write it with Compound Writing (installed for everyone through project settings),
