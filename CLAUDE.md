@@ -32,6 +32,7 @@ Always
 
 Tasks
 - new project / "let's go": use the kickoff skill
+- "update the kit": use the update-kit skill
 - research: follow agent/research-agent.md and agent/research-brief.md
 - brand fill: use after_research_brand_fill
 - site structure / sitemap: use site_structure. Organise by job, not by subject (agent/site-jobs.md)

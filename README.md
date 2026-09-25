@@ -24,6 +24,11 @@ Always the latest version
 Every time you open a project, Claude gets the latest version from GitHub first.
 If your unsaved changes clash with a colleague's, Claude stops and asks. It never overwrites.
 
+Kit improvements in older clients
+A client keeps the kit version it started with. To bring in later improvements,
+open the client folder and say: "update the kit". Claude shows what changed and asks first.
+Client content (research, brand files, workshop output) is never replaced.
+
 Never fill in the template itself. Improvements to the kit go into client-template on purpose,
 then every new client gets them.
 
