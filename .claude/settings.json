@@ -17,5 +17,16 @@
         ]
       }
     ]
+  },
+  "extraKnownMarketplaces": {
+    "compound-writing": {
+      "source": {
+        "source": "github",
+        "repo": "EveryInc/compound-writing"
+      }
+    }
+  },
+  "enabledPlugins": {
+    "compound-writing@compound-writing": true
   }
 }

@@ -6,6 +6,8 @@ Read before writing copy, research, or UI.
 Where things live
 - /agent: the brand system. Source of truth for all output.
 - /research: evidence. Research output goes here only.
+- /copy: page copy drafts, one folder per page.
+- /growth: quarterly growth reviews after launch.
 - /human: reference for designers and clients. Not agent source of truth.
 - /examples: fictional samples. Never use as client content.
 
@@ -16,7 +18,7 @@ Always
    constraints-*.yaml
    brand-positioning.yaml
    brand-values.yaml
-   voice-core.md
+   VOICE.md and STYLE.md
    everything else
 4. Do not invent claims, metrics, or product facts.
 5. Don't fill in client facts until research or the workshop provides them.
@@ -33,6 +35,10 @@ Always
 Tasks
 - new project / "let's go": use the kickoff skill
 - "update the kit": use the update-kit skill
+- copy, we write it: use Compound Writing (cw-scribe). Voice and style: agent/VOICE.md and
+  agent/STYLE.md. Drafts: copy/<page>/. See copy/README.md
+- copy, the client writes it: use the copy-brief skill
+- growth review after launch: use the growth-review skill
 - research: follow agent/research-agent.md and agent/research-brief.md
 - brand fill: use after_research_brand_fill
 - site structure / sitemap: use site_structure. Organise by job, not by subject (agent/site-jobs.md)

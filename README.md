@@ -39,6 +39,12 @@ Files start blank. See /examples for a filled sample.
 /research
 Evidence gathered by the research agent. Feeds /agent.
 
+/copy
+Page copy drafts, one folder per page.
+
+/growth
+Quarterly growth reviews after launch.
+
 /human
 For designers and clients. Figma, PDFs, presentation notes.
 
@@ -56,12 +62,16 @@ Everyone gets the same version from package.json.
 How we work
 Research, brand, and design loop. Start with research, go back whenever you need to.
 
-  research  <->  brand fill  <->  design / copy
+  research  <->  brand fill  <->  site plan  <->  copy  <->  design / build  ->  growth
 
 - Kickoff: open the client folder in Claude and say "let's go". Claude asks the brief questions.
 - Research: runs twice. A light pass before the workshop to prepare it, a deep pass after to test it.
 - Brand fill: ask for after_research_brand_fill. It updates /agent from /research.
 - Design / copy: ask for homepage, product_page, ads_or_social, support_copy, or ui_or_landing_build.
+- Copy: we write it with Compound Writing (installed for everyone through project settings),
+  or the client writes it from a wireframe and a Google Doc ("copy brief").
+- Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,
+  asks for a Search Console export, and recommends the next sprints.
 
 When to loop back
 - The AI flags a conflict between research and /agent (logged in research/08-risks-and-questions.md).

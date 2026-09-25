@@ -19,8 +19,8 @@ Everything here is Inference unless it cites a source. Link each point to the re
 ## Files to update in /agent
 - [ ] brand-positioning.yaml
 - [ ] brand-values.yaml
-- [ ] voice-core.md
-- [ ] terminology.yaml
+- [ ] VOICE.md
+- [ ] STYLE.md
 - [ ] constraints-messaging.yaml
 - [ ] icp.yaml
 - [ ] buying-committee.yaml

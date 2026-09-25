@@ -6,26 +6,24 @@ homepage:
     - brand-positioning.yaml
     - brand-values.yaml
     - buying-committee.yaml
-    - voice-core.md
-    - messaging-framework.md
+    - VOICE.md
+    - STYLE.md
     - visual-system.json
     - constraints-messaging.yaml
 
 product_page:
   read:
     - site-plan.yaml
-    - voice-core.md
-    - voice-translations.md
-    - messaging-framework.md
+    - VOICE.md
+    - STYLE.md
     - buying-committee.yaml
-    - terminology.yaml
     - constraints-messaging.yaml
     - visual-system.json
 
 ads_or_social:
   read:
-    - voice-translations.md
-    - messaging-framework.md
+    - VOICE.md
+    - STYLE.md
     - buying-committee.yaml
     - triggers.yaml
     - constraints-messaging.yaml
@@ -37,14 +35,13 @@ ui_or_landing_build:
     - section-library.md
     - visual-system.json
     - constraints-visual.yaml
-    - voice-core.md
+    - VOICE.md
 
 support_copy:
   read:
-    - voice-core.md
-    - messaging-framework.md
+    - VOICE.md
+    - STYLE.md
     - constraints-messaging.yaml
-    - terminology.yaml
 
 site_structure:
   read:
@@ -58,6 +55,15 @@ site_structure:
     - brand-positioning.yaml
     - ../research/07-site-implications.md
     - ../research/09-seo-aeo.md
+
+copy_client_brief:
+  read:
+    - site-plan.yaml
+    - section-library.md
+    - journey.yaml
+    - buying-committee.yaml
+    - STYLE.md
+    - constraints-messaging.yaml
 
 research:
   read:
@@ -77,4 +83,13 @@ after_research_brand_fill:
     - icp.yaml
     - buying-committee.yaml
     - triggers.yaml
-    - voice-core.md
+    - VOICE.md
+    - STYLE.md
+
+growth_review:
+  read:
+    - site-plan.yaml
+    - site-jobs.md
+    - sprint-menu.md
+    - section-library.md
+    - ../research/09-seo-aeo.md

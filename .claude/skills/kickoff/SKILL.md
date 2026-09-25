@@ -34,6 +34,7 @@ Round 1: the basics
 - What is their website?
 - What are we doing: brand, website, or both?
 - Is there a deadline?
+- Who writes the copy: us or the client?
 
 Round 2: the company
 - Any other links? LinkedIn, press, app store.

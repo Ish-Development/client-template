@@ -15,6 +15,8 @@ Starting point
 
 Engagement
 - Scope: brand / website / both
+- Copy: we write it / the client writes it
+- Webflow site (for the growth review later): 
 - Deadline: 
 
 What the client told us

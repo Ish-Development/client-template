@@ -1,4 +1,12 @@
-# By channel
+# STYLE.md
+
+What CLIENT_NAME's copy must do. Fictional sample brand.
+Hard limits (never-claims, legal, word counts) live in constraints-messaging.yaml.
+
+## Audience
+See buying-committee.yaml (one role: buyer).
+
+## By channel
 
 Website
 Lead with relief, then proof, then product.
