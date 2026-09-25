@@ -122,6 +122,5 @@ growth_review:
   read:
     - site-plan.yaml
     - site-jobs.md
-    - sprint-menu.md
     - section-library.md
     - ../research/09-seo-aeo.md

@@ -1,6 +1,6 @@
 ---
 name: growth-review
-description: Step 10. Read the live site's data, compare each page with its job, find where visitors drop off, and recommend the next sprints. Use when the user says "growth review", "how is the site doing", "CRO", or "what should we build next quarter".
+description: Step 11. Read the live site's data, compare each page with its job, find where visitors drop off, and recommend what to fix next. Use when the user says "growth review", "how is the site doing", "CRO", or "what should we fix next".
 ---
 
 # Growth review
@@ -42,7 +42,7 @@ The connector cannot set up or read Optimize. Claude plans, the team runs it in 
    sources suggest different visitors need different copy.
 
 1. Copy growth/report-template.md to growth/YYYY-QN.md and fill it in.
-2. Recommend fixes ranked by impact. Tie each one to a finding and a sprint in agent/sprint-menu.md.
+2. Recommend fixes ranked by impact. Tie each one to a finding and to the page's job.
 3. Only numbers from the data. Never invent benchmarks, conversion rates, or targets.
 4. If the data contradicts research or /agent, flag it and add it to research/08-risks-and-questions.md.
 5. Offer: "Want me to save this to GitHub?"

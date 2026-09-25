@@ -42,8 +42,8 @@ Next tests
 | | | | | |
 
 ## What we recommend
-Ranked by impact. Each one tied to a finding above and a sprint from agent/sprint-menu.md.
-| # | Finding | Fix | Sprint |
+Ranked by impact. Each one tied to a finding above and the page's job.
+| # | Finding | Fix | Page job |
 |---|---|---|---|
 | 1 | | | |
 

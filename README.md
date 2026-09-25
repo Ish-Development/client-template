@@ -100,7 +100,7 @@ whenever you need to. Most back-and-forth happens when the client sees design an
     things (a missed radius, off-scale spacing) only after the designer says yes.
     Say "QA the site": Claude inspects Webflow read-only and writes a ranked issue list in qa/.
 11. Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,
-    asks for a Search Console export, and recommends the next sprints.
+    asks for a Search Console export, and recommends fixes ranked by impact.
 
 Client feedback
 Paste what the client said and say "client feedback". Claude splits it into points, sorts each
