@@ -38,8 +38,10 @@ Write human/positioning-summary.md for the client. One page, plain words, no int
 - The shelf you sit on, the old way you fight, what you believe
 - The one-liner
 - What is still open, as questions for the client
-Then say: "Positioning is drafted. Send human/positioning-summary.md to the client for
-sign-off before the site plan." Record sign-off in brand-positioning.yaml as
+Also create it as a Google Doc named "Positioning summary" in the client's Drive folder
+(see CLAUDE.md, Google Drive). Then say: "Positioning is drafted. The summary is in the
+client's Drive folder, ready to share for sign-off before the site plan."
+When the client comments on the Doc, read the comments and use the client-feedback skill. Record sign-off in brand-positioning.yaml as
 signed_off: YYYY-MM-DD when the user confirms it.
 
 ## Rules

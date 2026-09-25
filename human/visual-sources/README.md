@@ -1,6 +1,15 @@
 # Visual sources
 
-Drop local files for the visual identity here: HTML prototypes, motion studies,
-PDF guidelines, images, Lottie files, CSS. Links (Figma, websites, repos) go in
-the Sources table in agent/visual/usage.md.
-These are raw sources. What Claude can use goes into agent/visual/.
+Raw design files from designers. Claude reads them and organises what it can use into
+agent/visual/ (say "visual identity"). See DESIGNERS.md in the project root.
+
+| Folder | What |
+|---|---|
+| motion/ | HTML, CSS, JS, or Lottie motion studies |
+| components/ | HTML and CSS components |
+| demos/ | Working HTML pages |
+| svg/ | Logos and icons as SVG |
+| guidelines/ | PDF brand guidelines |
+
+Figma files and live sites: send Claude the link. They are logged in the Sources table
+in agent/visual/usage.md.

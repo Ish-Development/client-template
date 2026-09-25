@@ -111,5 +111,6 @@ When done
 - Write the research/ files
 - Update research/sources.md with title, URL, and one-line why it mattered
 - Before-workshop pass only: write human/what-we-found.md for the client.
-  Follow the notes at the top of that file.
+  Follow the notes at the top of that file. Then offer to put it in the client's Drive folder
+  as a Google Doc named "What we found" (see CLAUDE.md, Google Drive).
 - List the 5 unknowns that would change the brand if answered

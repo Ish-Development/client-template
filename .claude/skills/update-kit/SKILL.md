@@ -19,7 +19,7 @@ Kit files: the method. Safe to replace with the template version.
 - agent/research-agent.md, agent/retrieval-rules.yaml, agent/site-jobs.md
 - copy/README.md, copy/examples/README.md, growth/README.md, growth/report-template.md
 - agent/visual/README.md, qa/README.md, human/visual-sources/README.md
-- package.json, .gitignore, README.md
+- package.json, .gitignore, README.md, DESIGNERS.md
 - examples/
 
 Client files: filled in for this client. Never replace.

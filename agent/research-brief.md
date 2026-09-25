@@ -17,6 +17,7 @@ Engagement
 - Scope: brand / website / both
 - Copy: we write it / the client writes it
 - Webflow site (for the growth review later): 
+- Google Drive folder (made at kickoff): 
 - Deadline: 
 
 What the client told us

@@ -10,7 +10,8 @@ Tone of voice is internal until the client sees design and copy together, so mos
 voice feedback arrives here.
 
 ## Steps
-1. Read the feedback. Split it into single points. Keep the client's exact words.
+1. Read the feedback: pasted text, or comments on the client's Google Docs (read them with
+   comments included). Split it into single points. Keep the client's exact words.
 2. Sort each point to where it belongs:
 
 | The point is about | Step | File |

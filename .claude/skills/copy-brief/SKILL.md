@@ -20,7 +20,8 @@ For every section of every page, write short guidance for the client:
 Plain words. No jargon like "Informer" or "Converter" in the client's docs.
 
 ## Google Docs: one per page
-1. Create a folder in the user's Google Drive: "CLIENT_NAME website copy".
+1. In the client's Drive folder (agent/research-brief.md, Google Drive folder), create a
+   subfolder "Website copy". If the client has no Drive folder yet, create it first (kickoff step 4).
 2. For each page in site-plan.yaml, in order, create one Google Doc in that folder,
    named "NN Page name" (01 Home, 02 Product, ...). Upload it as HTML so it becomes a Doc:
    - Top: page name, what the page is for, the one thing a visitor should do next.
@@ -30,6 +31,7 @@ Plain words. No jargon like "Informer" or "Converter" in the client's docs.
 4. Put the same guidance in each section's note in site-plan.yaml, then rebuild
    sitemap/index.html, so every page's wireframe shows it and links to its Doc.
 5. Share nothing. Give the user the folder link. They decide who gets access.
+6. When the client writes or comments, read the Docs with comments included.
 
 ## When the copy comes back
 Read the Docs. Put each page's copy in copy/<page>/draft-version-one.md.

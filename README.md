@@ -18,15 +18,15 @@ Works in Claude Code, in the terminal or the desktop app.
 **New client**
 
 1. Open the `client-template` folder in Claude.
-2. Say: `new client Clarify`
+2. Say: `new client "Client name"`
 3. Claude creates the client's own private repo and downloads it next to the template.
-4. Open the new `clarify` folder in Claude and say: `let's go`
+4. Open the new client folder in Claude and say: `let's go`
 
 **A client a colleague started**
 
 1. Open the `client-template` folder in Claude.
-2. Say: `get client clarify`
-3. Open the `clarify` folder in Claude.
+2. Say: `get client "Client name"`
+3. Open that client folder in Claude.
 
 First time on this computer? Do the [one-time setup](#one-time-setup) first.
 
@@ -45,6 +45,8 @@ Every step can move the others. Start with research, and go back whenever you ne
 ### Claude drafts, people decide
 
 Claude researches, drafts, checks, and asks. It never makes a brand decision on its own, never invents facts, and builds nothing. Designers design, the team builds, the client approves.
+
+**Designers:** read [DESIGNERS.md](DESIGNERS.md) for how to set up hi-fi and motion, and where to save your files.
 
 ---
 
@@ -70,7 +72,7 @@ Claude researches, drafts, checks, and asks. It never makes a brand decision on 
 |---|---|
 | `client feedback` + paste it | Claude sorts each point to the step it belongs to and asks before changing anything |
 | `save my work` | Claude shows what changed, asks, then saves to GitHub |
-| `get client <name>` | Downloads a client someone else started |
+| `get client "Client name"` | Downloads a client someone else started |
 | `which clients are there?` | Lists all client projects |
 | `update the kit` | Brings template improvements into an older client |
 
@@ -82,7 +84,7 @@ Claude researches, drafts, checks, and asks. It never makes a brand decision on 
 
 Open the client folder and say `let's go`. Claude asks four short rounds of questions: the basics, the company, what you already know, and the workshop. "Don't know" is always a fine answer. Blank stays blank.
 
-Claude then writes `agent/research-brief.md`, puts the client's name in every file, and offers the first research pass.
+Claude then writes `agent/research-brief.md`, puts the client's name in every file, creates the client's folder in Google Drive, and offers the first research pass.
 
 ### 2. Research, light (before the workshop)
 
@@ -173,6 +175,8 @@ Claude reads every source, including motion, and organises it in `agent/visual/`
 
 Claude never invents or changes a value. When two sources disagree, it asks.
 
+How designers set up Figma, motion, and components, and where to save files: [DESIGNERS.md](DESIGNERS.md).
+
 ### 10. Design critique and QA
 
 Claude builds nothing. It checks.
@@ -196,6 +200,16 @@ After launch, once a quarter, say `growth review`. Claude reads Webflow Analyze,
 
 **Never fill in the template itself.** Client work always happens in the client's own folder.
 
+**Google Drive for the client.** Every client gets a folder inside the [Ish Drive folder](https://drive.google.com/drive/folders/0ABw6YFhCn2x9Uk9PVA), created at kickoff. Only what the client reads goes there, as Google Docs:
+
+| Doc | When |
+|---|---|
+| What we found | After the light research |
+| Positioning summary | For positioning sign-off |
+| Website copy (a Doc per page) | When the client writes the copy |
+
+Nothing is shared automatically. You decide who gets access. When the client comments in a Doc, say `client feedback` and Claude reads the comments.
+
 ---
 
 ## What lives where
@@ -203,6 +217,7 @@ After launch, once a quarter, say `growth review`. Claude reads Webflow Analyze,
 ```text
 client-template/
 ├── CLAUDE.md            The rules Claude follows. Loaded automatically.
+├── DESIGNERS.md         How designers work with the kit
 ├── agent/               The brand system, in forms Claude can use
 │   ├── research-brief.md    Filled at kickoff
 │   ├── research-agent.md    How research is done
@@ -226,6 +241,7 @@ client-template/
 ├── qa/                  Design critiques and QA reports
 ├── growth/              Quarterly growth reviews
 ├── human/               For people: client summaries, PDFs, screenshots, raw design sources
+│   └── visual-sources/      Designers drop files here (see DESIGNERS.md)
 └── examples/            A fictional sleep brand, fully filled. Reference only.
 ```
 
@@ -276,7 +292,7 @@ Set me up for the Ish client template.
 |---|---|
 | Figma | Reading the workshop board, design sources, design critique |
 | Webflow | Visual sources, site QA, growth review |
-| Google Drive | Only the copy Docs, when the client writes the copy |
+| Google Drive | The client's folder: What we found, Positioning summary, copy Docs |
 
 **Optional:** a free Google PageSpeed API key makes speed checks reliable. Ask Claude: `help me add a PageSpeed API key as PSI_API_KEY`.
 
@@ -302,7 +318,7 @@ Each client folder installs its own research browser the first time you say `let
 | [agent-browser](https://github.com/vercel-labs/agent-browser) | A real browser for research, screenshots, and QA | `npm run setup`, run for you at kickoff |
 | Figma | Reads FigJam and Figma files | Project settings ask you to install it, Claude helps you log in |
 | Webflow connector | Reads Webflow sites and Analyze data | Claude's Connectors settings, Claude helps |
-| Google Drive connector | Creates the client's copy Docs | Claude's Connectors settings, Claude helps |
+| Google Drive connector | The client's folder and Docs, reads client comments | Claude's Connectors settings, Claude helps |
 | GitHub CLI | Creates, downloads, and saves client repos | One-time setup |
 
 ---
@@ -313,7 +329,7 @@ Skills are Claude's instructions for each step. You don't need to name them. Say
 
 | Skill | Step | Say |
 |---|---|---|
-| `kickoff` | New client, 1 | `new client <name>`, `let's go` |
+| `kickoff` | New client, 1 | `new client "Client name"`, `let's go` |
 | `workshop` | 3 | `workshop done` |
 | `positioning` | 5 | `positioning` |
 | `site-plan` | 6 | `site plan`, `sitemap` |
@@ -324,7 +340,7 @@ Skills are Claude's instructions for each step. You don't need to name them. Say
 | `design-qa` | 10 | `design critique`, `QA the site` |
 | `growth-review` | 11 | `growth review` |
 | `client-feedback` | Any time | `client feedback` |
-| `clients` | Any time | `get client <name>`, `which clients are there?` |
+| `clients` | Any time | `get client "Client name"`, `which clients are there?` |
 | `update-kit` | Any time | `update the kit` |
 
 Research (steps 2 and 4) runs from `agent/research-agent.md`.
@@ -339,7 +355,7 @@ Research (steps 2 and 4) runs from `agent/research-agent.md`.
 
 **Speed shows Unknown.** Google refused the check without a key. Add a PageSpeed API key as `PSI_API_KEY`, or leave it.
 
-**"This is the template."** You said `let's go` in `client-template`. Say `new client <name>` there instead, then open the new folder.
+**"This is the template."** You said `let's go` in `client-template`. Say `new client "Client name"` there instead, then open the new folder.
 
 **A client doesn't show up in the list.** Only repos tagged `client-kit` are clients. Kickoff tags them automatically. Ask whoever created it to check.
 

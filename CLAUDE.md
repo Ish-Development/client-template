@@ -49,6 +49,9 @@ Tasks, in workflow order
 - copy, the client writes it: copy-brief skill
 - visual identity: visual-identity skill. Designers make it (Figma, HTML, code, anything).
   Claude only reads and stores it. Never invent a color, font, timing, or value.
+- "design briefing": summarise for a designer, in plain words: the pages and their jobs
+  (sitemap), the positioning, how the brand sounds (VOICE.md), and the visual identity so far
+  (agent/visual/usage.md). Point to DESIGNERS.md. Read-only.
 - design critique / internal QA: design-qa skill. Claude builds nothing. Small Figma fixes
   only after the designer says yes. Webflow is read-only.
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
@@ -63,6 +66,16 @@ agent/buying-committee.yaml and agent/icp.yaml, never AUDIENCE.md. Create no oth
 
 The process is not linear. It moves like a spine: feedback on one step can move the others,
 and any task can send the work back to an earlier step.
+
+Google Drive (for the client)
+- Every client gets one folder inside the Ish Drive folder:
+  https://drive.google.com/drive/folders/0ABw6YFhCn2x9Uk9PVA
+  Named after the client. Its link is in agent/research-brief.md under Google Drive folder.
+- Only client-facing documents go there, as Google Docs: What we found, Positioning
+  summary, and the Website copy subfolder (copy-brief). Internal files stay in GitHub.
+- Never share anything. The user decides who gets access.
+- Client comments in these Docs are feedback: read them with comments included and use
+  the client-feedback skill.
 
 Saving work
 When the user says "save my work" or similar: show a short list of what changed,
