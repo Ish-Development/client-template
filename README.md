@@ -89,8 +89,9 @@ whenever you need to. Most back-and-forth happens when the client sees design an
    The copy appears in the wireframe box. Headlines come as 3 options.
    Or the client writes it: Claude makes a Google Doc for every page with guidance for every
    section, linked from the sitemap ("copy brief"). Needs the Google Drive connector.
-9. Visual identity: designers design in Figma. Then say "visual identity" and Claude copies
-   colors, type, and spacing from Figma into the kit. Website-only: from the client's guidelines.
+9. Visual identity: designers design it anywhere: Figma, HTML files, code, PDFs. Give Claude the
+   links or drop files in human/visual-sources/. Claude reads each source, including motion,
+   and stores the values, the rules, and a written description in agent/visual-identity.md.
 10. Hi-fi design & build: Figma, then Webflow or Astro, using the section library.
     For page tasks ask for homepage, product_page, ads_or_social, support_copy, or ui_or_landing_build.
 11. Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,

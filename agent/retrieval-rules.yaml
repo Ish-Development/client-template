@@ -33,6 +33,7 @@ ui_or_landing_build:
   read:
     - site-plan.yaml
     - section-library.md
+    - visual-identity.md
     - visual-system.json
     - constraints-visual.yaml
     - VOICE.md
@@ -99,11 +100,9 @@ tone_of_voice:
 
 visual_identity:
   read:
+    - visual-identity.md
     - visual-system.json
     - constraints-visual.yaml
-    - ../human/figma-url.md
-    - ../human/notes-for-designers.md
-    - ../research/04-competitors.md
 
 growth_review:
   read:

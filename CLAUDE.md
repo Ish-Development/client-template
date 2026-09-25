@@ -33,29 +33,28 @@ Always
    When browsing, follow the browsing rules in agent/research-agent.md. Public pages only.
    Never log in, never get around a paywall or block. If blocked, say so and move on.
 
-Tasks
-- new project / "let's go": use the kickoff skill
-- "update the kit": use the update-kit skill
-- Compound Writing's writing home is split across the kit: VOICE.md and STYLE.md in
-  agent/, examples in copy/examples/, drafts in copy/<page>/. Audience lives in
-  agent/buying-committee.yaml and agent/icp.yaml, never AUDIENCE.md. Create no other folders.
-- copy, we write it: use the copy skill. The user points at a part of the wireframe,
-  Claude writes it with Compound Writing and shows it in the sitemap.
-- copy, the client writes it: use the copy-brief skill
-- growth review after launch: use the growth-review skill
-- client feedback: use the client-feedback skill
+Tasks, in workflow order
+- new project / "let's go": kickoff skill
 - research: follow agent/research-agent.md and agent/research-brief.md
-- "workshop done" or a workshop board link: use the workshop skill
-- positioning: use the positioning skill
-- tone of voice: use the tone-of-voice skill
-- visual identity: use visual_identity. Designers create it in Figma. Claude only reads it:
-  colors, type, spacing from Figma variables and styles into visual-system.json, rules into
-  constraints-visual.yaml. Never invent a color, font, or value. Website-only projects:
-  import the client's existing brand guidelines (PDF or Figma) the same way.
-- site plan / sitemap / information architecture: use the site-plan skill. Organise by job,
+- "workshop done" or a workshop board link: workshop skill
+- positioning: positioning skill
+- site plan / sitemap / information architecture: site-plan skill. Organise by job,
   not by subject (agent/site-jobs.md)
+- tone of voice: tone-of-voice skill
+- copy, we write it: copy skill. The user points at a part of the wireframe,
+  Claude writes it with Compound Writing and shows it in the sitemap.
+- copy, the client writes it: copy-brief skill
+- visual identity: visual-identity skill. Designers make it (Figma, HTML, code, anything).
+  Claude only reads and stores it. Never invent a color, font, timing, or value.
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
+- growth review after launch: growth-review skill
+- client feedback, at any time: client-feedback skill
+- "update the kit": update-kit skill
 - Every page has one job and one next action from agent/site-plan.yaml
+
+Compound Writing's writing home is split across the kit: VOICE.md and STYLE.md in agent/,
+examples in copy/examples/, drafts in copy/<page>/. Audience lives in
+agent/buying-committee.yaml and agent/icp.yaml, never AUDIENCE.md. Create no other folders.
 
 The process is not linear. It moves like a spine: feedback on one step can move the others,
 and any task can send the work back to an earlier step.
