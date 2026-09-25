@@ -15,6 +15,15 @@ Start a new client
 3. Open the new client folder in Claude and say: "let's go".
 4. To save your work, say: "save my work". Claude asks before saving to GitHub.
 
+Work on a client someone else started
+1. Open the client-template folder in Claude.
+2. Say: "get client <name>". Claude downloads it once.
+3. Open that client folder in Claude.
+
+Always the latest version
+Every time you open a project, Claude gets the latest version from GitHub first.
+If your unsaved changes clash with a colleague's, Claude stops and asks. It never overwrites.
+
 Never fill in the template itself. Improvements to the kit go into client-template on purpose,
 then every new client gets them.
 

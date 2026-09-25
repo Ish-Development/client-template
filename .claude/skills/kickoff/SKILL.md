@@ -16,6 +16,7 @@ Interview the user to fill agent/research-brief.md. Then set up the kit for this
       download it next to this folder. OK?"
    d. On yes, from the parent folder run:
       gh repo create Ish-Development/<name> --template Ish-Development/client-template --private --clone
+      then: gh repo edit Ish-Development/<name> --add-topic client-kit
    e. Say: "Done. Open the <name> folder in Claude and say let's go."
    Stop here.
 2. If node_modules/agent-browser is missing, run npm run setup.

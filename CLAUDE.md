@@ -42,7 +42,10 @@ The process is not linear. Any task can send the work back to research.
 
 Saving work
 When the user says "save my work" or similar: show a short list of what changed,
-ask to confirm, then commit and push. Never commit or push without a yes.
+ask to confirm, then get the latest (git pull), then commit and push.
+Never commit or push without a yes.
+If a colleague changed the same file, stop. Show both versions in plain words and
+ask which to keep. Never overwrite someone else's work.
 Never change the client-template repo from a client folder.
 
 Output
