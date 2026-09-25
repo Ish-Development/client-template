@@ -54,7 +54,7 @@ Round 4: the workshop
 ## After the last round
 1. Write every answer into agent/research-brief.md. Blank stays blank.
 2. Replace CLIENT_NAME with the client name in agent/, human/, and research/. Never touch examples/.
-3. If a workshop link was given: read the board and put its output into agent/icp.yaml, buying-committee.yaml, triggers.yaml, journey.yaml, site-plan.yaml, and the enemy/pov fields in brand-positioning.yaml, all as status: hypothesis. Translate to English, keep exact quotes in the original language with a translation.
+3. If a workshop link was given: use the workshop skill to read it into the kit.
 4. Show a short summary: what is filled, what is blank.
 5. Offer the next step:
    - No workshop yet: "Want me to run the research pass before the workshop?"

@@ -70,7 +70,8 @@ Research, brand, and design loop. Start with research, go back whenever you need
 
 1. Kickoff: open the client folder in Claude and say "let's go". Claude asks the brief questions.
 2. Research, light: before the workshop, to prepare it.
-3. Workshop: run the growth workshop. Claude reads the board into /agent as hypotheses.
+3. Workshop: run the growth workshop in FigJam. Then say "workshop done" with the board link.
+   Claude reads each block into /agent as hypotheses and lists what is empty or unclear.
 4. Research, deep: after the workshop, to test it.
 5. Positioning: say "positioning". Claude drafts who it's for, category, enemy, POV, and the
    buyers from research and the workshop. You decide.
