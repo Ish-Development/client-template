@@ -13,7 +13,22 @@ Check agent/research-brief.md for a workshop link.
   with questions to ask in the workshop.
 - After the workshop (link given): deep pass. Test the workshop output in /agent:
   ICP, buying committee, triggers. Always look for blockers. Update every research file.
+  Report only. Never change /agent in research. The positioning step decides.
+  Before starting, ask the user two questions, one at a time:
+  1. "Should we add customer interviews? 3-5 short calls with the client's customers.
+     I write the interview guide and analyse the transcripts." Yes / no / later.
+  2. If agent/icp.yaml lists more than one industry: "Should I go deep on every industry,
+     or only on the main one for now? If only one, which?"
+  Write both answers in research/00-overview.md.
 Write which pass this is at the top of research/00-overview.md.
+
+Customer interviews (only if the user said yes)
+- Write the guide in research/interviews/guide.md: 8-10 open questions about their last
+  purchase, what triggered it, who was involved, what almost stopped it. No leading questions.
+  Start the guide with: ask for consent to record, and explain how notes are used.
+- The team runs the calls and drops transcripts or notes in research/interviews/.
+- Analyse them into research/05-audience.md. Refer to people by role and company type,
+  never by name. Quotes only with the interviewee's consent.
 
 Before writing
 1. Read agent/research-brief.md
