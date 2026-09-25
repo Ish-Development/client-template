@@ -1,30 +1,43 @@
-# The site, organised by job. Settled in the workshop.
+# The site, organised by job. Settled in the workshop, drafted in the site plan step.
 # Job definitions and rules: site-jobs.md. Sections: section-library.md.
+# The client sees it as sitemap/index.html (built by the site-plan skill).
 # status: blank | hypothesis | validated
 status: blank
 source:
+signed_off:
+  # Date the client approved the sitemap, YYYY-MM-DD.
 
 goal:
   # One main goal, two at most. Something the business would celebrate.
   primary:
   secondary:
 
+nav_groups:
+  # How pages are grouped in the navigation, in order. e.g. Main navigation, Footer.
+  - title: Main navigation
+    pages: [home]
+
 pages:
   # Every page except home has exactly one job and one next action.
+  # id: short name, lowercase, no spaces. parent: id of the page above it, or empty.
   # job: converter | collector | attractor | informer
-  # journey_stage: optional, from journey.yaml
-  - name: Home
+  # search_question: what someone types into Google or ChatGPT to find this page,
+  #   from research/09-seo-aeo.md. Empty if the page is not meant to be found by search.
+  # phase: 1 = now, 2 = later
+  - id: home
+    name: Home
+    url: /
+    parent:
     job: # home can do several; name the main one
     next_action:
     measured_by:
     journey_stage:
+    search_question:
+    phase: 1
+    copy_doc:
+      # Google Doc link, only when the client writes the copy (copy-brief skill)
     sections:
-      -
-  - name:
-    job:
-    next_action:
-    measured_by:
-      # share of visitors who took next_action
-    journey_stage:
-    sections:
-      -
+      # name from section-library.md, its job, and a one-line note
+      - name:
+        job:
+        note:

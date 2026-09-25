@@ -76,10 +76,13 @@ Research, brand, and design loop. Start with research, go back whenever you need
 5. Positioning: say "positioning". Claude validates what research confirms, asks you each
    open decision one at a time, and writes 3 options for the one-liner, difference, and POV.
    Ends with human/positioning-summary.md for the client to sign off.
-6. Site plan: say "site structure". Every page gets one job, one next action, one measure.
+6. Site plan: say "site plan". Every page gets one job, one next action, one measure, its URL,
+   and the search question it answers. Claude builds a black and white HTML sitemap in
+   sitemap/index.html: the whole information architecture plus one tab per page. Client signs off.
 7. Tone of voice: say "tone of voice". Claude drafts VOICE.md and STYLE.md. You edit.
 8. Copy: we write it with Compound Writing (installed for everyone through project settings),
-   or the client writes it from a wireframe and a Google Doc ("copy brief").
+   or the client writes it: Claude makes a Google Doc for every page with guidance for every
+   section, linked from the sitemap ("copy brief"). Needs the Google Drive connector.
 9. Visual identity: designers design in Figma. Then say "visual identity" and Claude copies
    colors, type, and spacing from Figma into the kit. Website-only: from the client's guidelines.
 10. Hi-fi design & build: Figma, then Webflow or Astro, using the section library.

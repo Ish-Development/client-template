@@ -6,6 +6,7 @@ Read before writing copy, research, or UI.
 Where things live
 - /agent: the brand system. Source of truth for all output.
 - /research: evidence. Research output goes here only.
+- /sitemap: the black and white HTML sitemap for the client.
 - /copy: page copy drafts, one folder per page.
 - /growth: quarterly growth reviews after launch.
 - /human: reference for designers and clients. Not agent source of truth.
@@ -48,7 +49,8 @@ Tasks
   colors, type, spacing from Figma variables and styles into visual-system.json, rules into
   constraints-visual.yaml. Never invent a color, font, or value. Website-only projects:
   import the client's existing brand guidelines (PDF or Figma) the same way.
-- site structure / sitemap: use site_structure. Organise by job, not by subject (agent/site-jobs.md)
+- site plan / sitemap / information architecture: use the site-plan skill. Organise by job,
+  not by subject (agent/site-jobs.md)
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
 - Every page has one job and one next action from agent/site-plan.yaml
 
