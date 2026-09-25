@@ -84,8 +84,10 @@ whenever you need to. Most back-and-forth happens when the client sees design an
 7. Tone of voice: say "tone of voice". Built with Compound Writing. If the client has a voice,
    Claude learns it from their writing. If not, give Claude 2-5 inspiration websites: it writes
    3 voice directions with sample lines, you pick, then it builds VOICE.md and STYLE.md. You edit.
-8. Copy: we write it with Compound Writing (installed for everyone through project settings),
-   or the client writes it: Claude makes a Google Doc for every page with guidance for every
+8. Copy: we write it: point at a part of the wireframe ("write copy for the home hero") and
+   Claude writes it with Compound Writing (installed for everyone through project settings).
+   The copy appears in the wireframe box. Headlines come as 3 options.
+   Or the client writes it: Claude makes a Google Doc for every page with guidance for every
    section, linked from the sitemap ("copy brief"). Needs the Google Drive connector.
 9. Visual identity: designers design in Figma. Then say "visual identity" and Claude copies
    colors, type, and spacing from Figma into the kit. Website-only: from the client's guidelines.

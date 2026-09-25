@@ -39,8 +39,8 @@ Tasks
 - Compound Writing's writing home is split across the kit: VOICE.md and STYLE.md in
   agent/, examples in copy/examples/, drafts in copy/<page>/. Audience lives in
   agent/buying-committee.yaml and agent/icp.yaml, never AUDIENCE.md. Create no other folders.
-- copy, we write it: use Compound Writing (cw-scribe). Voice and style: agent/VOICE.md and
-  agent/STYLE.md. Drafts: copy/<page>/. See copy/README.md
+- copy, we write it: use the copy skill. The user points at a part of the wireframe,
+  Claude writes it with Compound Writing and shows it in the sitemap.
 - copy, the client writes it: use the copy-brief skill
 - growth review after launch: use the growth-review skill
 - client feedback: use the client-feedback skill

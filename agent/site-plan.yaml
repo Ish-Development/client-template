@@ -38,8 +38,9 @@ pages:
       # Google Doc link, only when the client writes the copy (copy-brief skill)
     sections:
       # In page order. name from section-library.md, its job, size (s, m, l) for the
-      # wireframe, and a note on what goes there.
+      # wireframe, a note on what goes there, and the copy once written (copy skill).
       - name:
         job:
         size: m
         note:
+        copy:
