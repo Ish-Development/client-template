@@ -1,3 +1,9 @@
+# Visual usage
+
+Fictional sample brand. Values: tokens.json. Components: components.html.
+
+## Hard rules
+```yaml
 logo:
   - Do not stretch
   - Do not put on busy photos without a quiet field
@@ -14,3 +20,4 @@ layout:
 imagery:
   - No stock smiles
   - No floating products on pure white infinity
+```

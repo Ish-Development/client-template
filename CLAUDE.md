@@ -4,19 +4,22 @@ This is a brand + web project kit.
 Read before writing copy, research, or UI.
 
 Where things live
-- /agent: the brand system. Source of truth for all output.
+- /agent: the brand system, in forms Claude can use. Source of truth for all output.
+  agent/visual/ holds tokens, usage, components, SVGs, motion, and demos.
 - /research: evidence. Research output goes here only.
 - /sitemap: the black and white HTML sitemap for the client.
 - /copy: page copy drafts, one folder per page.
+- /qa: design critiques and internal QA reports.
 - /growth: quarterly growth reviews after launch.
-- /human: reference for designers and clients. Not agent source of truth.
+- /human: for people. Client PDFs and summaries, Figma screenshots, moodboard images, long
+  strategy essays, raw design sources. Not agent source of truth.
 - /examples: fictional samples. Never use as client content.
 
 Always
 1. Read agent/retrieval-rules.yaml first.
 2. Load only the files listed for the current task.
 3. If files conflict, use this order:
-   constraints-*.yaml
+   constraints-messaging.yaml and the Hard rules in agent/visual/usage.md
    brand-positioning.yaml
    brand-values.yaml
    VOICE.md and STYLE.md
@@ -46,6 +49,8 @@ Tasks, in workflow order
 - copy, the client writes it: copy-brief skill
 - visual identity: visual-identity skill. Designers make it (Figma, HTML, code, anything).
   Claude only reads and stores it. Never invent a color, font, timing, or value.
+- design critique / internal QA: design-qa skill. Claude builds nothing. Small Figma fixes
+  only after the designer says yes. Webflow is read-only.
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
 - growth review after launch: growth-review skill
 - client feedback, at any time: client-feedback skill

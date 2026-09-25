@@ -17,7 +17,8 @@ Kit files: the method. Safe to replace with the template version.
 - CLAUDE.md
 - .claude/settings.json and everything in .claude/skills/
 - agent/research-agent.md, agent/retrieval-rules.yaml, agent/site-jobs.md, agent/sprint-menu.md
-- copy/README.md, growth/README.md, growth/report-template.md
+- copy/README.md, copy/examples/README.md, growth/README.md, growth/report-template.md
+- agent/visual/README.md, qa/README.md, human/visual-sources/README.md
 - package.json, .gitignore, README.md
 - examples/
 

@@ -11,7 +11,7 @@ Never invent or change a color, font, size, timing, or rule.
 ## 1. Collect sources
 Ask: "Where does the visual identity live? Send links or drop files in
 human/visual-sources/. Anything works: Figma, HTML files, websites, PDFs, images, code."
-List every source in the Sources table in agent/visual-identity.md: what it is, where it
+List every source in the Sources table in agent/visual/usage.md: what it is, where it
 is, and what it covers (e.g. colors, logo, motion).
 
 ## 2. Read each source with the right tool
@@ -30,16 +30,23 @@ is, and what it covers (e.g. colors, logo, motion).
 
 Motion is usually not in Figma. Expect it in HTML, code, Lottie, or a live site.
 
-## 3. Store
-- agent/visual-system.json: the values, keeping the names used in the source.
-  Add keys only for what a source has. Empty stays empty.
-- agent/constraints-visual.yaml: the rules the designers wrote down.
-- agent/visual-identity.md: the identity in words: logo, color use, type use, imagery,
-  layout, motion. Each part names its source.
+## 3. Store in agent/visual/ (see its README)
+Only what Claude can use. Collect and organise. Never design or build.
+- tokens.json: colors, type, radius, space. Keep the names used in the source. Empty stays empty.
+- usage.md: logo, color, type, imagery, layout, components, motion in words, plus the
+  Hard rules the designers wrote down. Each part names its source.
+- components.html + components.css: copy the designers' HTML components as delivered.
+  If none were delivered, leave them out and list it under Open questions.
+- logo.svg, icons/: SVG only. Export from Figma if that is where they live. Never PNG.
+- motion.json: one flat file, e.g. "ease", "buttonHover": "180ms", "heroFade": "600ms".
+  Names and values exactly as in the source.
+- demos/: the designers' working HTML pages, as delivered.
+Not in agent/: final client PDFs, Figma screenshots, moodboard images, long strategy essays.
+Those stay in /human.
 
 ## 4. When sources disagree
 Show both values and their sources. Ask which is right. Record the answer in
-agent/visual-identity.md. Never pick one silently.
+agent/visual/usage.md under Decisions. Never pick one silently.
 
 ## 5. Report
 What was stored, from which source, and what is missing or unclear, as questions for

@@ -1,4 +1,6 @@
 # Which files to load for which task. Keep context small.
+# If a listed file does not exist yet (e.g. visual/components.html before designers deliver it),
+# skip it and say so. Never fill the gap with guesses.
 
 homepage:
   read:
@@ -8,7 +10,7 @@ homepage:
     - buying-committee.yaml
     - VOICE.md
     - STYLE.md
-    - visual-system.json
+    - visual/tokens.json
     - constraints-messaging.yaml
 
 product_page:
@@ -18,7 +20,7 @@ product_page:
     - STYLE.md
     - buying-committee.yaml
     - constraints-messaging.yaml
-    - visual-system.json
+    - visual/tokens.json
 
 ads_or_social:
   read:
@@ -33,9 +35,10 @@ ui_or_landing_build:
   read:
     - site-plan.yaml
     - section-library.md
-    - visual-identity.md
-    - visual-system.json
-    - constraints-visual.yaml
+    - visual/usage.md
+    - visual/tokens.json
+    - visual/motion.json
+    - visual/components.html
     - VOICE.md
 
 support_copy:
@@ -100,9 +103,20 @@ tone_of_voice:
 
 visual_identity:
   read:
-    - visual-identity.md
-    - visual-system.json
-    - constraints-visual.yaml
+    - visual/usage.md
+    - visual/tokens.json
+    - visual/motion.json
+    - visual/components.html
+
+design_qa:
+  read:
+    - site-plan.yaml
+    - section-library.md
+    - visual/usage.md
+    - visual/tokens.json
+    - visual/motion.json
+    - visual/components.html
+    - constraints-messaging.yaml
 
 growth_review:
   read:

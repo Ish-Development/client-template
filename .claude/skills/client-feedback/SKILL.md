@@ -19,7 +19,7 @@ voice feedback arrives here.
 | What the copy says, claims, proof, page structure | Tone of voice / Copy | agent/STYLE.md, copy/<page>/ |
 | Who it is for, what we stand for, the one-liner | Positioning | agent/brand-positioning.yaml |
 | Which pages exist, what each page does | Site plan | agent/site-plan.yaml, sitemap/ |
-| Colors, type, layout, imagery | Visual identity / Design | visual-system.json, constraints-visual.yaml, Figma |
+| Colors, type, layout, imagery | Visual identity / Design | agent/visual/, the design sources |
 | A fact about the business we got wrong | Research | research/, then the file that used it |
 
 3. Show the sorted list. For each point: what you would change, and which later steps
