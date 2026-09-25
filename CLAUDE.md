@@ -40,7 +40,14 @@ Tasks
 - copy, the client writes it: use the copy-brief skill
 - growth review after launch: use the growth-review skill
 - research: follow agent/research-agent.md and agent/research-brief.md
-- brand fill: use after_research_brand_fill
+- positioning: use positioning. Claude drafts brand-positioning, values, ICP, buying
+  committee, triggers from research and the workshop. Flag conflicts, the team decides.
+- tone of voice: use tone_of_voice. Claude drafts VOICE.md and STYLE.md from research,
+  the team edits. Use Compound Writing skills (cw-voice-check, cw-save) to refine.
+- visual identity: use visual_identity. Designers create it in Figma. Claude only reads it:
+  colors, type, spacing from Figma variables and styles into visual-system.json, rules into
+  constraints-visual.yaml. Never invent a color, font, or value. Website-only projects:
+  import the client's existing brand guidelines (PDF or Figma) the same way.
 - site structure / sitemap: use site_structure. Organise by job, not by subject (agent/site-jobs.md)
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
 - Every page has one job and one next action from agent/site-plan.yaml

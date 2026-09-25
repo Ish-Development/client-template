@@ -62,23 +62,35 @@ Everyone gets the same version from package.json.
 How we work
 Research, brand, and design loop. Start with research, go back whenever you need to.
 
-  research  <->  brand fill  <->  site plan  <->  copy  <->  design / build  ->  growth
+  research  <->  positioning  <->  site plan  <->  tone of voice  <->  copy
+            <->  visual identity  <->  hi-fi design & build  ->  growth
 
-- Kickoff: open the client folder in Claude and say "let's go". Claude asks the brief questions.
-- Research: runs twice. A light pass before the workshop to prepare it, a deep pass after to test it.
-- Brand fill: ask for after_research_brand_fill. It updates /agent from /research.
-- Design / copy: ask for homepage, product_page, ads_or_social, support_copy, or ui_or_landing_build.
-- Copy: we write it with Compound Writing (installed for everyone through project settings),
-  or the client writes it from a wireframe and a Google Doc ("copy brief").
-- Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,
-  asks for a Search Console export, and recommends the next sprints.
+  Words first: the site plan and copy come before high-fidelity design,
+  so design is built around real copy.
+
+1. Kickoff: open the client folder in Claude and say "let's go". Claude asks the brief questions.
+2. Research, light: before the workshop, to prepare it.
+3. Workshop: run the growth workshop. Claude reads the board into /agent as hypotheses.
+4. Research, deep: after the workshop, to test it.
+5. Positioning: say "positioning". Claude drafts who it's for, category, enemy, POV, and the
+   buyers from research and the workshop. You decide.
+6. Site plan: say "site structure". Every page gets one job, one next action, one measure.
+7. Tone of voice: say "tone of voice". Claude drafts VOICE.md and STYLE.md. You edit.
+8. Copy: we write it with Compound Writing (installed for everyone through project settings),
+   or the client writes it from a wireframe and a Google Doc ("copy brief").
+9. Visual identity: designers design in Figma. Then say "visual identity" and Claude copies
+   colors, type, and spacing from Figma into the kit. Website-only: from the client's guidelines.
+10. Hi-fi design & build: Figma, then Webflow or Astro, using the section library.
+    For page tasks ask for homepage, product_page, ads_or_social, support_copy, or ui_or_landing_build.
+11. Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,
+    asks for a Search Console export, and recommends the next sprints.
 
 When to loop back
 - The AI flags a conflict between research and /agent (logged in research/08-risks-and-questions.md).
 - A client answer changes one of the 5 key unknowns.
 - The client adds a new industry. Steps are in agent/icp.yaml.
 - Design work shows a claim or audience assumption that no source supports.
-After new research, run brand fill again before more design work.
+After new research, run positioning and tone of voice again before more design work.
 
 Example prompts
 - "Using only the files in /agent, write homepage hero copy and a 3-section landing page in the brand voice."

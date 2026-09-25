@@ -73,9 +73,10 @@ research:
     - buying-committee.yaml
     - triggers.yaml
 
-after_research_brand_fill:
+positioning:
   read:
     - ../research/00-overview.md
+    - ../research/04-competitors.md
     - ../research/05-audience.md
     - ../research/06-brand-implications.md
     - brand-positioning.yaml
@@ -83,8 +84,26 @@ after_research_brand_fill:
     - icp.yaml
     - buying-committee.yaml
     - triggers.yaml
+
+tone_of_voice:
+  read:
+    - ../research/03-market.md
+    - ../research/05-audience.md
+    - ../research/06-brand-implications.md
+    - brand-positioning.yaml
+    - brand-values.yaml
+    - buying-committee.yaml
     - VOICE.md
     - STYLE.md
+    - constraints-messaging.yaml
+
+visual_identity:
+  read:
+    - visual-system.json
+    - constraints-visual.yaml
+    - ../human/figma-url.md
+    - ../human/notes-for-designers.md
+    - ../research/04-competitors.md
 
 growth_review:
   read:

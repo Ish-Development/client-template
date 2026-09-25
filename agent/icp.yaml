@@ -20,7 +20,7 @@ industries:
   #   1. Add it here with status hypothesis.
   #   2. Add industry_notes in buying-committee.yaml only where a role differs.
   #   3. Add its triggers in triggers.yaml.
-  #   4. Run research for that industry, then brand fill.
+  #   4. Run research for that industry, then positioning.
   - name:
     status: blank
     since:
