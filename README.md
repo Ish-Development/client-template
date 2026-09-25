@@ -78,7 +78,8 @@ Research, brand, and design loop. Start with research, go back whenever you need
    Ends with human/positioning-summary.md for the client to sign off.
 6. Site plan: say "site plan". Every page gets one job, one next action, one measure, its URL,
    and the search question it answers. Claude builds a black and white HTML sitemap in
-   sitemap/index.html: the whole information architecture plus one tab per page. Client signs off.
+   sitemap/index.html: one deliverable with the whole information architecture plus a
+   wireframe for every page. Client signs off.
 7. Tone of voice: say "tone of voice". Claude drafts VOICE.md and STYLE.md. You edit.
 8. Copy: we write it with Compound Writing (installed for everyone through project settings),
    or the client writes it: Claude makes a Google Doc for every page with guidance for every

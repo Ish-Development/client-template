@@ -15,5 +15,5 @@ Never call a file final.
 Two ways we work, set in agent/research-brief.md:
 - We write the copy: Claude drafts with Compound Writing (cw-scribe), using
   agent/VOICE.md and agent/STYLE.md.
-- The client writes the copy: Claude makes a click-through wireframe in copy/wireframe/
-  and a Google Doc that tells the client what to write in each section.
+- The client writes the copy: Claude makes a Google Doc for every page (copy-brief skill),
+  linked from each page's wireframe in sitemap/index.html.

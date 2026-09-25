@@ -1,6 +1,6 @@
 ---
 name: site-plan
-description: Step 6. Plan the site by job and build the black and white HTML sitemap for the client. Use when the user says "site plan", "site structure", "sitemap", or "information architecture".
+description: Step 6. Plan the site by job and build the black and white HTML sitemap and wireframe for the client. Use when the user says "site plan", "site structure", "sitemap", or "information architecture".
 ---
 
 # Site plan
@@ -31,7 +31,9 @@ Show the draft as a simple list and ask for changes. Ask open choices one at a t
 - Every URL is unique and lowercase.
 Report what fails.
 
-## 4. Build the sitemap
+## 4. Build the sitemap and wireframe
+One deliverable: an overview tab with the whole information architecture, and one tab per
+page with its wireframe (sections as grey boxes, in page order, sized s, m, or l).
 1. Copy .claude/skills/site-plan/sitemap-template.html to sitemap/index.html.
 2. Replace only the DATA block (window.SITE) with the site plan. Keep the rest unchanged.
 3. Open sitemap/index.html with npx agent-browser, screenshot the overview and one page,

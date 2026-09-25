@@ -1,6 +1,6 @@
 ---
 name: copy-brief
-description: When the client writes their own copy, make a Google Doc for every page with guidance for every section, linked from the sitemap, plus a click-through wireframe. Use when the user says "copy brief", "client writes the copy", or "make the copy docs".
+description: When the client writes their own copy, make a Google Doc for every page with guidance for every section, linked from the sitemap and wireframe. Use when the user says "copy brief", "client writes the copy", or "make the copy docs".
 ---
 
 # Copy brief for the client
@@ -27,14 +27,9 @@ Plain words. No jargon like "Informer" or "Converter" in the client's docs.
    - Then each section in order: the section name as a heading, the guidance in grey,
      and an empty box underneath titled "Write here".
 3. Put each Doc's link in site-plan.yaml as copy_doc for that page.
-4. Rebuild sitemap/index.html from site-plan.yaml, so every page tab links to its Doc.
+4. Put the same guidance in each section's note in site-plan.yaml, then rebuild
+   sitemap/index.html, so every page's wireframe shows it and links to its Doc.
 5. Share nothing. Give the user the folder link. They decide who gets access.
-
-## Wireframe
-Build a simple click-through HTML wireframe in copy/wireframe/: one HTML file per page
-in the same order, linked through a shared menu. Grey boxes, no design. Each box shows
-the section name and the same guidance as the Doc. Open copy/wireframe/index.html in the
-browser to check the links work.
 
 ## When the copy comes back
 Read the Docs. Put each page's copy in copy/<page>/draft-version-one.md.

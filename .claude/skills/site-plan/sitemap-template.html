@@ -38,11 +38,14 @@
   .facts { margin-bottom: 40px; border-top: 1px solid #e5e5e5; }
   .fact { display: grid; grid-template-columns: 160px 1fr; gap: 16px; padding: 10px 0; border-bottom: 1px solid #f0f0f0; }
   .fact .label { margin: 0; }
-  .section { display: flex; gap: 16px; padding: 12px 0; border-bottom: 1px solid #f0f0f0; }
-  .sections-label { padding-bottom: 8px; border-bottom: 1px solid #e5e5e5; margin-bottom: 0; }
-  .num { flex: none; width: 20px; color: #666; font-size: 13px; }
-  .section-title { font-weight: 500; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
-  .section-note { color: #666; }
+  .wire { display: flex; flex-direction: column; gap: 8px; }
+  .section { position: relative; background: #f7f7f7; border: 1px solid #e5e5e5; border-radius: 6px; padding: 16px 18px; min-height: 96px; }
+  .section.s { min-height: 56px; }
+  .section.l { min-height: 220px; }
+  .sections-label { padding-bottom: 8px; margin-bottom: 8px; }
+  .num { position: absolute; top: 16px; right: 18px; color: #999; font-size: 12px; }
+  .section-title { font-weight: 500; display: flex; gap: 8px; align-items: center; flex-wrap: wrap; padding-right: 32px; }
+  .section-note { color: #444; margin-top: 4px; max-width: 60ch; }
   .back { display: inline-block; margin-bottom: 24px; font-size: 13px; color: #666; }
   .sub { margin-top: 40px; }
   @media (max-width: 600px) { .content { padding: 32px 16px; } .topbar { padding: 12px 16px; } .fact { grid-template-columns: 1fr; gap: 0; } }
@@ -68,7 +71,7 @@ window.SITE = {
       id: "home", name: "Home", url: "/", parent: null,
       job: "converter", next_action: "", measured_by: "",
       journey_stage: "", search_question: "", phase: 1, copy_doc: "",
-      sections: [ { name: "Hero", job: "attractor", note: "" } ]
+      sections: [ { name: "Hero", job: "attractor", size: "l", note: "" } ]
     }
   ]
 };
@@ -144,17 +147,17 @@ window.SITE = {
       .forEach(function (f) { var d = el('div', 'fact'); d.appendChild(el('div', 'label', f[0])); d.appendChild(el('div', null, f[1] || '—')); facts.appendChild(d); });
     if (p.copy_doc) { var d = el('div', 'fact'); d.appendChild(el('div', 'label', 'Copy doc')); var a = el('a', null, 'Open the Google Doc for this page'); a.href = p.copy_doc; a.target = '_blank'; a.style.textDecoration = 'underline'; var v = el('div'); v.appendChild(a); d.appendChild(v); facts.appendChild(d); }
     pn.appendChild(facts);
-    pn.appendChild(el('div', 'label sections-label', 'Sections'));
+    pn.appendChild(el('div', 'label sections-label', 'Wireframe'));
+    var wire = el('div', 'wire');
     (p.sections || []).forEach(function (s, i) {
-      var box = el('div', 'section');
+      var box = el('div', 'section ' + (s.size || 'm'));
       box.appendChild(el('div', 'num', String(i + 1)));
-      var body = el('div');
       var t = el('div', 'section-title', s.name + ' '); if (s.job) t.appendChild(tag(s.job));
-      body.appendChild(t);
-      if (s.note) body.appendChild(el('div', 'section-note', s.note));
-      box.appendChild(body);
-      pn.appendChild(box);
+      box.appendChild(t);
+      if (s.note) box.appendChild(el('div', 'section-note', s.note));
+      wire.appendChild(box);
     });
+    pn.appendChild(wire);
     var kids = S.pages.filter(function (k) { return k.parent === p.id; });
     if (kids.length) {
       pn.appendChild(el('div', 'label sections-label sub', 'Pages below this one'));
