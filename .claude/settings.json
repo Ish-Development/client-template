@@ -27,6 +27,7 @@
     }
   },
   "enabledPlugins": {
-    "compound-writing@compound-writing": true
+    "compound-writing@compound-writing": true,
+    "figma@claude-plugins-official": true
   }
 }
