@@ -1,0 +1,7 @@
+status: hypothesis
+source: team draft
+triggers:
+  - event: A week of bad sleep before a launch or trip
+    who_notices: buyer
+    how_we_spot_it:
+    source: team draft

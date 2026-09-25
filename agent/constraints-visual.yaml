@@ -1,0 +1,12 @@
+# Hard rules. These win over every other file.
+# Example: examples/sleep-brand-sample/agent/constraints-visual.yaml
+logo:
+  -
+color:
+  -
+type:
+  -
+layout:
+  -
+imagery:
+  -

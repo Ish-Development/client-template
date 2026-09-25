@@ -1,0 +1,15 @@
+# Real events that move a buyer from passive to active buying. Workshop block: Triggers.
+# Not pain points: moments in time. Aim for 5-8.
+# Specific beats general: "New CFO hired" beats "leadership change".
+# status: blank | hypothesis | validated
+status: blank
+source:
+triggers:
+  - event:
+    industry:
+      # From icp.yaml industries. Leave empty if it applies to all.
+    who_notices:
+      # Role from buying-committee.yaml
+    how_we_spot_it:
+      # e.g. press releases, job posts, equipment purchases
+    source:

@@ -1,0 +1,58 @@
+# Buyer journey, left side of the bow tie. Workshop block: Bow tie.
+# Feeds site structure: each stage needs pages and content that answer it.
+# status: blank | hypothesis | validated
+status: blank
+source:
+stages:
+  awareness:
+    mindset: "I have a problem."
+    trigger:
+    buyer_question:
+    buyer_research:
+    buyer_reality:
+    objections:
+      -
+    proof_needed:
+      -
+    next_step:
+    key_content:
+      -
+  education:
+    mindset: "I'm learning the options."
+    trigger:
+    buyer_question:
+    buyer_research:
+    buyer_reality:
+    objections:
+      -
+    proof_needed:
+      -
+    next_step:
+    key_content:
+      -
+  selection:
+    mindset: "I'm looking for options and need to choose a vendor."
+    trigger:
+    buyer_question:
+    buyer_research:
+    buyer_reality:
+    objections:
+      -
+    proof_needed:
+      -
+    next_step:
+    key_content:
+      -
+  commit:
+    mindset: "I'm choosing a vendor."
+    trigger:
+    buyer_question:
+    buyer_research:
+    buyer_reality:
+    objections:
+      -
+    proof_needed:
+      -
+    next_step:
+    key_content:
+      -

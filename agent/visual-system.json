@@ -1,0 +1,53 @@
+{
+  "_how_to_fill": "Replace empty values. Example: examples/sleep-brand-sample/agent/visual-system.json",
+  "brand": "CLIENT_NAME",
+  "color": {
+    "ink": "",
+    "paper": "",
+    "accent": "",
+    "accentSoft": "",
+    "alert": ""
+  },
+  "type": {
+    "display": {
+      "family": "",
+      "fallback": "",
+      "weight": null,
+      "tracking": ""
+    },
+    "body": {
+      "family": "",
+      "fallback": "",
+      "weight": null,
+      "size": "",
+      "lineHeight": null
+    },
+    "label": {
+      "family": "",
+      "weight": null,
+      "size": "",
+      "tracking": "",
+      "transform": ""
+    }
+  },
+  "space": {
+    "unit": null,
+    "section": null,
+    "gutter": null
+  },
+  "radius": {
+    "button": null,
+    "card": null,
+    "image": null
+  },
+  "motion": {
+    "ease": "",
+    "fast": "",
+    "page": ""
+  },
+  "photography": {
+    "light": "",
+    "palettes": "",
+    "avoid": []
+  }
+}

@@ -1,0 +1,28 @@
+# Ideal customer profile. Workshop block: Profitable customer -> ICP.
+# status: blank | hypothesis | validated
+#   Workshop output enters as hypothesis. Research confirms or challenges it.
+status: blank
+source:
+sentence:
+  # A [size] [industry] company, [key characteristic], experiencing [trigger], where [role] owns [outcome].
+best_customers:
+  # 3-5 most profitable or most joyful. Internal only, never on the site without permission.
+  -
+shared_traits:
+  industry:
+  size:
+  maturity:
+  team_shape:
+  budget:
+industries:
+  # Industries the client sells to. This list grows over time.
+  # Adding an industry:
+  #   1. Add it here with status hypothesis.
+  #   2. Add industry_notes in buying-committee.yaml only where a role differs.
+  #   3. Add its triggers in triggers.yaml.
+  #   4. Run research for that industry, then brand fill.
+  - name:
+    status: blank
+    since:
+not_a_fit:
+  -

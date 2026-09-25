@@ -1,0 +1,12 @@
+# Hard rules. These win over every other file.
+# Example: examples/sleep-brand-sample/agent/constraints-messaging.yaml
+never_claim:
+  -
+never_tone:
+  -
+legal:
+  # Check with the client. Do not guess regulated claims.
+  -
+length:
+  headline_max_words:
+  button_max_words:

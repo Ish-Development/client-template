@@ -1,0 +1,80 @@
+# Which files to load for which task. Keep context small.
+
+homepage:
+  read:
+    - site-plan.yaml
+    - brand-positioning.yaml
+    - brand-values.yaml
+    - buying-committee.yaml
+    - voice-core.md
+    - messaging-framework.md
+    - visual-system.json
+    - constraints-messaging.yaml
+
+product_page:
+  read:
+    - site-plan.yaml
+    - voice-core.md
+    - voice-translations.md
+    - messaging-framework.md
+    - buying-committee.yaml
+    - terminology.yaml
+    - constraints-messaging.yaml
+    - visual-system.json
+
+ads_or_social:
+  read:
+    - voice-translations.md
+    - messaging-framework.md
+    - buying-committee.yaml
+    - triggers.yaml
+    - constraints-messaging.yaml
+    - brand-positioning.yaml
+
+ui_or_landing_build:
+  read:
+    - site-plan.yaml
+    - section-library.md
+    - visual-system.json
+    - constraints-visual.yaml
+    - voice-core.md
+
+support_copy:
+  read:
+    - voice-core.md
+    - messaging-framework.md
+    - constraints-messaging.yaml
+    - terminology.yaml
+
+site_structure:
+  read:
+    - site-jobs.md
+    - site-plan.yaml
+    - section-library.md
+    - journey.yaml
+    - buying-committee.yaml
+    - triggers.yaml
+    - icp.yaml
+    - brand-positioning.yaml
+    - ../research/07-site-implications.md
+    - ../research/09-seo-aeo.md
+
+research:
+  read:
+    - research-brief.md
+    - research-agent.md
+    - icp.yaml
+    - buying-committee.yaml
+    - triggers.yaml
+
+after_research_brand_fill:
+  read:
+    - ../research/00-overview.md
+    - ../research/05-audience.md
+    - ../research/06-brand-implications.md
+    - brand-positioning.yaml
+    - brand-values.yaml
+    - icp.yaml
+    - buying-committee.yaml
+    - triggers.yaml
+    - voice-core.md

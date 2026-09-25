@@ -1,0 +1,6 @@
+# internal: how the team decides. customer_facing: what the customer should feel.
+# Example: examples/sleep-brand-sample/agent/brand-values.yaml
+internal:
+  -
+customer_facing:
+  -

@@ -1,0 +1,21 @@
+# Fill after research. Source: research/06-brand-implications.md
+# Example: examples/sleep-brand-sample/agent/brand-positioning.yaml
+brand: CLIENT_NAME
+one_liner:
+who_we_are: >
+who_its_for: >
+  # One sentence. Detail lives in icp.yaml and buying-committee.yaml.
+category:
+  # The shelf the buyer would put us on. The familiar label they would reach for.
+problem: >
+difference: >
+proof_points:
+  # Only proof that exists and is verified. Cite research/sources.md IDs.
+  -
+enemy:
+  # The old way, status quo, or alternative we fight. Include "do nothing" and "build in-house".
+  -
+pov: >
+  # The one sharp thing we believe that competitors don't, or won't say.
+do_not_compete_with:
+  -

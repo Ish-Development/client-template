@@ -1,0 +1,30 @@
+# The site, organised by job. Settled in the workshop.
+# Job definitions and rules: site-jobs.md. Sections: section-library.md.
+# status: blank | hypothesis | validated
+status: blank
+source:
+
+goal:
+  # One main goal, two at most. Something the business would celebrate.
+  primary:
+  secondary:
+
+pages:
+  # Every page except home has exactly one job and one next action.
+  # job: converter | collector | attractor | informer
+  # journey_stage: optional, from journey.yaml
+  - name: Home
+    job: # home can do several; name the main one
+    next_action:
+    measured_by:
+    journey_stage:
+    sections:
+      -
+  - name:
+    job:
+    next_action:
+    measured_by:
+      # share of visitors who took next_action
+    journey_stage:
+    sections:
+      -

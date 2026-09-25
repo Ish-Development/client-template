@@ -1,0 +1,8 @@
+# use: concept -> the word we use. avoid: words we never use.
+# Example: examples/sleep-brand-sample/agent/terminology.yaml
+use:
+  # concept: word
+avoid:
+  -
+product_names:
+  # key: CLIENT_NAME Product

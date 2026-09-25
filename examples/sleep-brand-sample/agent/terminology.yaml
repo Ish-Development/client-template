@@ -1,0 +1,21 @@
+use:
+  sleep: sleep
+  night: night
+  rest: rest
+  routine: evening routine
+  mask: eye mask
+  lamp: lamp
+avoid:
+  - biohack
+  - optimize
+  - protocol
+  - stack
+  - hack
+  - journey
+  - disrupt
+  - unlock
+  - ecosystem
+product_names:
+  eye_mask: CLIENT_NAME Mask
+  lamp: CLIENT_NAME Lamp
+  supplement: CLIENT_NAME Magnesium

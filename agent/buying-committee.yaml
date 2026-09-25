@@ -1,0 +1,97 @@
+# Who is involved in the buying decision. Workshop block: Buying committee.
+# B2C: replace the roles with one role called buyer.
+#
+# Roles
+#   champion       - advocates for our client's solution inside the buyer's company.
+#                    Defined by what they do, not by job title.
+#   influencer     - can influence other members of the buying committee.
+#   blocker        - can stop the deal. Always filled: research looks for blockers
+#                    even when the workshop left this empty.
+#   decision_maker - makes the final decision to buy.
+#
+# status per role: blank | hypothesis | validated
+#   Workshop output enters as hypothesis. Research confirms or challenges it.
+#
+# industry_notes: describe each role once. Add a one-line note only where an
+# industry differs. Example: "aquaculture: talk about fish welfare, not data".
+
+roles:
+  champion:
+    status: blank
+    source:
+    snapshot:
+    titles:
+      -
+    by_company_size:
+      small:
+      enterprise:
+    pains:
+      -
+    gains:
+      -
+    objections:
+      -
+    their_words:
+      # Exact quotes only, with source IDs from research/sources.md.
+      -
+    how_to_talk:
+    industry_notes:
+      # industry: one line
+
+  influencer:
+    status: blank
+    source:
+    snapshot:
+    titles:
+      -
+    by_company_size:
+      small:
+      enterprise:
+    pains:
+      -
+    gains:
+      -
+    objections:
+      -
+    their_words:
+      -
+    how_to_talk:
+    industry_notes:
+
+  blocker:
+    status: blank
+    source:
+    snapshot:
+    titles:
+      -
+    by_company_size:
+      small:
+      enterprise:
+    why_they_block:
+      -
+    what_reassures_them:
+      -
+    their_words:
+      -
+    how_to_talk:
+    industry_notes:
+
+  decision_maker:
+    status: blank
+    source:
+    snapshot:
+    titles:
+      -
+    by_company_size:
+      small:
+      enterprise:
+    pains:
+      -
+    gains:
+      -
+    objections:
+      -
+    their_words:
+      -
+    how_to_talk:
+    industry_notes:

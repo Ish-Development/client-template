@@ -1,0 +1,21 @@
+# B2C example: one role.
+roles:
+  buyer:
+    status: hypothesis
+    source: team draft
+    snapshot: Maya, 34, product manager
+    titles:
+      - Product manager
+    pains:
+      - Works late, scrolls in bed, knows she should stop
+      - Feels talked-down-to by wellness brands and tracked by sleep apps
+    gains:
+      - To fall asleep without a routine that takes 40 minutes
+      - Products that look like they belong in a real apartment
+      - Language that does not make her feel broken
+    objections:
+      - Buying another unused supplement
+      - Being sold a personality
+    their_words:
+    how_to_talk: Fewer steps. Better materials. No score.
+    industry_notes:

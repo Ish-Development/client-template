@@ -1,0 +1,15 @@
+never_claim:
+  - Cures insomnia
+  - Replaces a doctor
+  - Clinically proven unless a specific study is cited
+never_tone:
+  - Shame about phones or productivity
+  - Guru voice
+  - All-caps hype
+  - Fake intimacy ("hey bestie")
+legal:
+  - Supplements are not medicines
+  - No before/after miracle framing
+length:
+  headline_max_words: 10
+  button_max_words: 4

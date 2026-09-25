@@ -1,0 +1,53 @@
+{
+  "brand": "CLIENT_NAME",
+  "color": {
+    "ink": "#1C1A17",
+    "paper": "#F6F1EA",
+    "sand": "#E7DCCF",
+    "sea": "#2F4A43",
+    "seaSoft": "#D7E2DC",
+    "alert": "#8C4A32"
+  },
+  "type": {
+    "display": {
+      "family": "PP Editorial New",
+      "fallback": "Georgia, serif",
+      "weight": 400,
+      "tracking": "-0.02em"
+    },
+    "body": {
+      "family": "Inter",
+      "fallback": "Helvetica, Arial, sans-serif",
+      "weight": 400,
+      "size": "18px",
+      "lineHeight": 1.5
+    },
+    "label": {
+      "family": "Inter",
+      "weight": 500,
+      "size": "12px",
+      "tracking": "0.08em",
+      "transform": "uppercase"
+    }
+  },
+  "space": {
+    "unit": 8,
+    "section": 96,
+    "gutter": 24
+  },
+  "radius": {
+    "button": 999,
+    "card": 16,
+    "image": 8
+  },
+  "motion": {
+    "ease": "cubic-bezier(0.22, 1, 0.36, 1)",
+    "fast": "180ms",
+    "page": "420ms"
+  },
+  "photography": {
+    "light": "window light, late afternoon",
+    "palettes": "paper, wood, linen, dark green glass",
+    "avoid": ["neon", "gym", "marble spa", "purple LED"]
+  }
+}
