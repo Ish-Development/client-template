@@ -36,15 +36,18 @@ Always
 Tasks
 - new project / "let's go": use the kickoff skill
 - "update the kit": use the update-kit skill
+- Compound Writing's writing home is split across the kit: VOICE.md and STYLE.md in
+  agent/, examples in copy/examples/, drafts in copy/<page>/. Audience lives in
+  agent/buying-committee.yaml and agent/icp.yaml, never AUDIENCE.md. Create no other folders.
 - copy, we write it: use Compound Writing (cw-scribe). Voice and style: agent/VOICE.md and
   agent/STYLE.md. Drafts: copy/<page>/. See copy/README.md
 - copy, the client writes it: use the copy-brief skill
 - growth review after launch: use the growth-review skill
+- client feedback: use the client-feedback skill
 - research: follow agent/research-agent.md and agent/research-brief.md
 - "workshop done" or a workshop board link: use the workshop skill
 - positioning: use the positioning skill
-- tone of voice: use tone_of_voice. Claude drafts VOICE.md and STYLE.md from research,
-  the team edits. Use Compound Writing skills (cw-voice-check, cw-save) to refine.
+- tone of voice: use the tone-of-voice skill
 - visual identity: use visual_identity. Designers create it in Figma. Claude only reads it:
   colors, type, spacing from Figma variables and styles into visual-system.json, rules into
   constraints-visual.yaml. Never invent a color, font, or value. Website-only projects:
@@ -54,7 +57,8 @@ Tasks
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
 - Every page has one job and one next action from agent/site-plan.yaml
 
-The process is not linear. Any task can send the work back to research.
+The process is not linear. It moves like a spine: feedback on one step can move the others,
+and any task can send the work back to an earlier step.
 
 Saving work
 When the user says "save my work" or similar: show a short list of what changed,

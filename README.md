@@ -60,7 +60,8 @@ It installs agent-browser (the research browser) and downloads its Chrome.
 Everyone gets the same version from package.json.
 
 How we work
-Research, brand, and design loop. Start with research, go back whenever you need to.
+The steps move like a spine: each one can move the others. Start with research, go back
+whenever you need to. Most back-and-forth happens when the client sees design and copy together.
 
   research  <->  positioning  <->  site plan  <->  tone of voice  <->  copy
             <->  visual identity  <->  hi-fi design & build  ->  growth
@@ -80,7 +81,9 @@ Research, brand, and design loop. Start with research, go back whenever you need
    and the search question it answers. Claude builds a black and white HTML sitemap in
    sitemap/index.html: one deliverable with the whole information architecture plus a
    wireframe for every page. Client signs off.
-7. Tone of voice: say "tone of voice". Claude drafts VOICE.md and STYLE.md. You edit.
+7. Tone of voice: say "tone of voice". Built with Compound Writing. If the client has a voice,
+   Claude learns it from their writing. If not, give Claude 2-5 inspiration websites: it writes
+   3 voice directions with sample lines, you pick, then it builds VOICE.md and STYLE.md. You edit.
 8. Copy: we write it with Compound Writing (installed for everyone through project settings),
    or the client writes it: Claude makes a Google Doc for every page with guidance for every
    section, linked from the sitemap ("copy brief"). Needs the Google Drive connector.
@@ -90,6 +93,12 @@ Research, brand, and design loop. Start with research, go back whenever you need
     For page tasks ask for homepage, product_page, ads_or_social, support_copy, or ui_or_landing_build.
 11. Growth: after launch, once a quarter, say "growth review". Claude reads Webflow Analyze,
     asks for a Search Console export, and recommends the next sprints.
+
+Client feedback
+Paste what the client said and say "client feedback". Claude splits it into points, sorts each
+to the step it belongs to (voice, positioning, site plan, design, research), shows what would
+change, and asks before changing anything. Tone of voice has no separate client sign-off:
+the client reacts to it here.
 
 When to loop back
 - The AI flags a conflict between research and /agent (logged in research/08-risks-and-questions.md).
