@@ -56,6 +56,19 @@ Claude reads the names and values exactly as you wrote them into `agent/visual/m
 
 ---
 
+## Fluid sizes
+
+Figma can't do clamp. Put fluid type and spacing in Webflow variables or in code, with clear names:
+```css
+:root {
+  --text-body: clamp(1rem, 0.9rem + 0.5vw, 1.25rem);
+  --space-section: clamp(4rem, 3rem + 4vw, 8rem);
+}
+```
+Claude copies them exactly as written into `agent/visual/tokens.json`. In Figma, use the size at your design width.
+
+---
+
 ## Components in HTML
 
 If you build components in HTML and CSS (buttons, heroes, cards, type, spacing), deliver them. Claude copies them to `agent/visual/components.html` as the spec. Working landing pages or motion demos go in too; Claude keeps them in `agent/visual/demos/`.

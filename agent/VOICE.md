@@ -20,9 +20,9 @@ Describe the voice with tensions, not adjectives alone. One concrete scene helps
 ## Diction
 
 ### Words we use
-| Concept | We say |
-|---|---|
-| | |
+| Concept | We say | Instead of | Why |
+|---|---|---|---|
+| | | | |
 
 ### Product names
 | Product | Name |
@@ -31,6 +31,7 @@ Describe the voice with tensions, not adjectives alone. One concrete scene helps
 
 ### Words we never use
 Include category clichés from research/03-market.md and 04-competitors.md.
+One word per line, with why: "word: why". Leave why empty if no one has said. Never invent one.
 - 
 
 ### Register
@@ -85,6 +86,10 @@ Don't:
 - Are any words from "Words we never use" still in the copy?
 - Does it sound written by a person, not polished by a machine?
 
+## When no rule covers it
+1. Find the closest rule and follow its why.
+2. If no rule is close, don't guess. Ask, then add the answer here as a rule with its why.
+
 ## Confirmed lessons
-Rules learned from real work. Add the date and the page.
+Rules learned from real work. Add the date, the page, and why.
 - 

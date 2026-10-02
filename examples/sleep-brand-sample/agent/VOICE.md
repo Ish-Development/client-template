@@ -15,14 +15,12 @@ Short sentences. Concrete nouns. No performance.
 ## Diction
 
 ### Words we use
-| Concept | We say |
-|---|---|
-| sleep | sleep |
-| night | night |
-| rest | rest |
-| routine | evening routine |
-| mask | eye mask |
-| lamp | lamp |
+| Concept | We say | Instead of | Why |
+|---|---|---|---|
+| sleep | sleep | recovery, sleep performance | The buyer wants to sleep, not to perform. |
+| routine | evening routine | protocol, ritual | A routine is ordinary. Protocol sounds clinical, ritual sounds precious. |
+| mask | eye mask | sleep accessory, slumber essential | Says what it is. Nobody searches for "slumber essential". |
+| lamp | lamp | light therapy device | Therapy is a medical claim we do not make. |
 
 ### Product names
 | Product | Name |
@@ -32,15 +30,15 @@ Short sentences. Concrete nouns. No performance.
 | Supplement | CLIENT_NAME Magnesium |
 
 ### Words we never use
-- biohack
-- optimize
-- protocol
-- stack
-- hack
-- journey
-- disrupt
-- unlock
-- ecosystem
+- biohack: turns rest into another thing to get good at.
+- optimize: same. Sleep is not a score.
+- protocol: sounds clinical. We are not a clinic.
+- stack: supplement-bro language. Wrong room.
+- hack: promises a shortcut. There is none.
+- journey: category cliché. Every wellness brand says it.
+- disrupt: about us, not about the buyer.
+- unlock: implies the buyer is locked. Shame by another name.
+- ecosystem: product-speak. Buyers have a bedroom, not an ecosystem.
 
 ## Syntax and rhythm
 Prefer short lines. One claim at a time. Let white space do work.

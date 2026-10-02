@@ -6,6 +6,7 @@
     "agent-browser": "0.38.1"
   },
   "scripts": {
-    "setup": "npm install && npx agent-browser install"
+    "setup": "npm install && npx agent-browser install",
+    "tokens": "node .claude/skills/visual-identity/tokens-to-css.mjs"
   }
 }

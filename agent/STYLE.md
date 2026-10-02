@@ -81,5 +81,5 @@ A page is ready when:
 - [ ] 
 
 ## Confirmed lessons
-Rules learned from real work. Add the date and the page.
+Rules learned from real work. Add the date, the page, and why.
 - 

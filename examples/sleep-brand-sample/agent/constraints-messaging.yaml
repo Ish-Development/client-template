@@ -1,15 +1,24 @@
 never_claim:
-  - Cures insomnia
-  - Replaces a doctor
-  - Clinically proven unless a specific study is cited
+  - rule: Cures insomnia
+    why: A medical claim. The products help a routine; they do not treat a condition.
+  - rule: Replaces a doctor
+    why: Sends people with a real sleep problem away from care.
+  - rule: Clinically proven unless a specific study is cited
+    why: Without the study it is a claim we cannot back up.
 never_tone:
-  - Shame about phones or productivity
-  - Guru voice
-  - All-caps hype
-  - Fake intimacy ("hey bestie")
+  - rule: Shame about phones or productivity
+    why: The buyer is already tired and guilty. Shame makes them leave.
+  - rule: Guru voice
+    why: The brand is a calm peer, not a teacher.
+  - rule: All-caps hype
+    why: Loud is the opposite of what the product is for.
+  - rule: Fake intimacy ("hey bestie")
+    why: Trust comes from being plain, not from acting close.
 legal:
-  - Supplements are not medicines
-  - No before/after miracle framing
+  - rule: Supplements are not medicines
+    why: Required for supplement marketing.
+  - rule: No before/after miracle framing
+    why: Implies a guaranteed result we cannot promise.
 length:
   headline_max_words: 10
   button_max_words: 4

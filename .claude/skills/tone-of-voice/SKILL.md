@@ -50,6 +50,8 @@ Run cw-onboarding with these instructions:
   inspiration notes (path 3). Competitor examples are what to avoid.
 - STYLE.md must keep: page structure by job (agent/site-jobs.md), claims and proof,
   calls to action, and the ready-to-publish checklist.
+- Every rule says why: from the client's examples, the workshop, research, or the user.
+  If no one has said why, leave it empty and ask. Never invent a reason.
 Show the drafts. The user edits.
 
 ## 5. Test on a real section
@@ -66,4 +68,4 @@ Tone of voice stays internal. There is no client sign-off here. The client react
 voice when design and copy are presented together. That feedback comes back through the
 client-feedback skill.
 
-Offer to save to GitHub at the end.
+Offer a copy kit test (kit-test skill), then offer to save to GitHub.

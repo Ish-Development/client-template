@@ -33,6 +33,9 @@ Client files: filled in for this client. Never replace.
    one line each, say what changed in plain words.
 3. For client files, check if the template added new sections or fields (for example a
    new table in a research file). List them. These are added by hand, not replaced.
+   If the template added new client files (for example agent/visual/color.md) and this
+   client keeps that content somewhere else (for example a filled agent/visual/usage.md),
+   offer to move it into the new files. Move the words as they are. Show the result first.
 4. Show the list and ask: "Update these kit files?" Wait for a yes.
 5. On yes: copy the kit files over. For new sections in client files, add them without
    changing anything already filled in.

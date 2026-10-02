@@ -36,6 +36,13 @@ ui_or_landing_build:
     - site-plan.yaml
     - section-library.md
     - visual/usage.md
+    - visual/logo.md
+    - visual/color.md
+    - visual/typography.md
+    - visual/imagery.md
+    - visual/layout.md
+    - visual/components.md
+    - visual/motion.md
     - visual/tokens.json
     - visual/motion.json
     - visual/components.html
@@ -104,6 +111,13 @@ tone_of_voice:
 visual_identity:
   read:
     - visual/usage.md
+    - visual/logo.md
+    - visual/color.md
+    - visual/typography.md
+    - visual/imagery.md
+    - visual/layout.md
+    - visual/components.md
+    - visual/motion.md
     - visual/tokens.json
     - visual/motion.json
     - visual/components.html
@@ -113,10 +127,24 @@ design_qa:
     - site-plan.yaml
     - section-library.md
     - visual/usage.md
+    - visual/logo.md
+    - visual/color.md
+    - visual/typography.md
+    - visual/imagery.md
+    - visual/layout.md
+    - visual/components.md
+    - visual/motion.md
     - visual/tokens.json
     - visual/motion.json
     - visual/components.html
     - constraints-messaging.yaml
+
+kit_test:
+  read:
+    - retrieval-rules.yaml
+    - site-plan.yaml
+    - constraints-messaging.yaml
+    - visual/usage.md
 
 growth_review:
   read:

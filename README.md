@@ -46,6 +46,10 @@ Every step can move the others. Start with research, and go back whenever you ne
 
 Claude researches, drafts, checks, and asks. It never makes a brand decision on its own, never invents facts, and builds nothing. Designers design, the team builds, the client approves.
 
+### Ish keeps the kit
+
+We run the kit for the client after launch. When a client is mature enough to run it themselves, we can hand it over. We decide that per client.
+
 **Designers:** read [DESIGNERS.md](DESIGNERS.md) for how to set up hi-fi and motion, and where to save your files.
 
 ---
@@ -71,6 +75,7 @@ Claude researches, drafts, checks, and asks. It never makes a brand decision on 
 | Say | What happens |
 |---|---|
 | `client feedback` + paste it | Claude sorts each point to the step it belongs to and asks before changing anything |
+| `test the kit` | A fresh agent makes something nobody designed, from the kit only. Every guess shows a gap to fix |
 | `save my work` | Claude shows what changed, asks, then saves to GitHub |
 | `get client "Client name"` | Downloads a client someone else started |
 | `which clients are there?` | Lists all client projects |
@@ -167,13 +172,17 @@ Claude reads every source, including motion, and organises it in `agent/visual/`
 | File | What it is |
 |---|---|
 | `tokens.json` | Colors, type, radius, space |
+| `tokens.css` | The same values as CSS variables, for Astro sites |
 | `motion.json` | Easing and durations |
-| `usage.md` | How to use it, plus the designers' hard rules |
+| `usage.md` | Start here: which file to read for which job |
+| `logo.md`, `color.md`, `typography.md`, `imagery.md`, `layout.md`, `components.md`, `motion.md` | How each part is used, with the designers' hard rules and why |
 | `components.html` | Real components, when designers deliver them |
 | `icons/`, `logo.svg` | SVG, never PNG |
 | `demos/` | Working HTML pages from designers |
 
 Claude never invents or changes a value. When two sources disagree, it asks.
+
+**Test the kit.** Say `test the kit`. A fresh agent with no project context gets only the kit and makes something nobody has designed yet, like a page or a launch email. It lists every decision and where it came from. Each guess is a gap: a file the agent should have read, a rule that needs clearer words, or a question for the designers or the client. We fix the kit, not the output. Run it after tone of voice (copy only) and after visual identity (everything).
 
 How designers set up Figma, motion, and components, and where to save files: [DESIGNERS.md](DESIGNERS.md).
 
@@ -194,7 +203,7 @@ After launch, once a quarter, say `growth review`. Claude reads Webflow Analyze,
 
 **Always the latest version.** Every time you open a project, Claude gets the latest version from GitHub first.
 
-**Saving.** Say `save my work`. Claude shows what changed and asks before saving. If a colleague changed the same file, it stops, shows both versions, and asks which to keep. It never overwrites someone's work.
+**Saving.** Say `save my work`. Claude shows what changed and asks before saving. Each save says what was decided and why, so months later anyone can find out why something changed. If a colleague changed the same file, it stops, shows both versions, and asks which to keep. It never overwrites someone's work.
 
 **Improving the kit.** Change the kit in `client-template` and save it. Every new client gets the change. An existing client keeps its version until someone says `update the kit` in that client's folder. Claude then shows what changed and asks first. Client content is never replaced.
 
@@ -337,6 +346,7 @@ Skills are Claude's instructions for each step. You don't need to name them. Say
 | `copy` | 8 | `write copy for …` |
 | `copy-brief` | 8 | `copy brief` |
 | `visual-identity` | 9 | `visual identity` |
+| `kit-test` | After 7 and 9 | `test the kit` |
 | `design-qa` | 10 | `design critique`, `QA the site` |
 | `growth-review` | 11 | `growth review` |
 | `client-feedback` | Any time | `client feedback` |

@@ -14,7 +14,8 @@ only with the designer's yes. Load the design_qa files from agent/retrieval-rule
 3. Check against the kit:
    - Visual system: colors, type, spacing, radius, effects match agent/visual/tokens.json.
      Flag values that are off-token or not bound to a variable.
-   - Rules: Hard rules in agent/visual/usage.md. Components match agent/visual/components.html.
+   - Rules: Hard rules in the agent/visual/ topic files (logo, color, typography, imagery,
+     layout, components, motion). Components match agent/visual/components.html.
    - Structure: the page has the sections from agent/site-plan.yaml, in order, and its
      one next action is visible.
    - Copy: the text matches the latest approved copy in copy/<page>/. Flag differences.
@@ -39,7 +40,7 @@ Never change anything in Webflow: no edits, no publishing, no form submissions.
    - Styles use the variables from agent/visual/tokens.json, not hard-coded values.
    - Screenshots at mobile (390px), tablet (768px), desktop (1440px). Spacing, radius,
      overflow, broken layouts.
-   - Motion matches agent/visual/motion.json and agent/visual/usage.md.
+   - Motion matches agent/visual/motion.json and agent/visual/motion.md.
    - Links: no broken links or 404s.
    - SEO: page title, meta description, one H1, alt text, per copy/<page>/.
    - Accessibility: contrast, headings in order, focus states, alt text.

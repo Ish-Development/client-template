@@ -1,37 +1,37 @@
 # Visual usage
 
-How CLIENT_NAME's visual identity is used. Written by Claude from the design sources
-(visual-identity skill). Describes only what the sources contain.
-Values: tokens.json. Components: components.html. Motion values: motion.json.
-Example: examples/sleep-brand-sample/agent/visual/usage.md
+Start here for anything visual. How CLIENT_NAME's visual identity is used, written by
+Claude from the design sources (visual-identity skill). Describes only what the sources contain.
+Example: examples/sleep-brand-sample/agent/visual/
+
+## Where to start
+Read only what the job needs.
+| Making | Read |
+|---|---|
+| Anything with the logo | logo.md |
+| Anything with photos or illustration | imagery.md |
+| A page, screen, or section | layout.md, components.md, typography.md, color.md |
+| An ad or social post | imagery.md, logo.md, typography.md, color.md |
+| Anything that moves | motion.md |
+Values for all of them: tokens.json (and tokens.css). Motion values: motion.json.
+
+## How the rules are written
+Each topic file has Hard rules. They win over everything else visual.
+Each rule says why and where, so a page nobody has drawn yet can follow the reason.
+If the source gives no reason, leave why empty and add it to Open questions below.
+Never invent one.
 
 ## Sources
 | Source | Where | Covers |
 |---|---|---|
 | | | |
 
-## Hard rules
-Rules the designers wrote down. These win over everything else visual.
-- 
-
-## Logo
-
-## Color use
-
-## Type use
-
-## Imagery
-
-## Layout
-
-## Components
-When to use which component in components.html.
-
-## Motion
-Usually from HTML, code, Lottie, or a live site, not Figma. Values in motion.json.
-Which motion is used where, e.g. heroFade on page load.
+## When the kit doesn't cover it
+1. Find the closest rule and follow its why.
+2. If no rule is close, don't guess. Ask the designers, then add the answer to the right
+   topic file as a rule with its why.
 
 ## Decisions
-Where sources disagreed, and which one the team chose.
+Where sources disagreed, which one the team chose, and why.
 
 ## Open questions for the designers

@@ -19,12 +19,13 @@ Always
 1. Read agent/retrieval-rules.yaml first.
 2. Load only the files listed for the current task.
 3. If files conflict, use this order:
-   constraints-messaging.yaml and the Hard rules in agent/visual/usage.md
+   constraints-messaging.yaml and the Hard rules in the agent/visual/ topic files
    brand-positioning.yaml
    brand-values.yaml
    VOICE.md and STYLE.md
    everything else
-4. Do not invent claims, metrics, or product facts.
+4. Do not invent claims, metrics, or product facts. Rules in /agent say why; never
+   invent the why. If it is missing, ask.
 5. Don't fill in client facts until research or the workshop provides them.
 6. Research is evidence, not rules. If research contradicts a file in /agent:
    follow the /agent file, say so in your reply, and add the conflict to
@@ -51,9 +52,12 @@ Tasks, in workflow order
   Claude only reads and stores it. Never invent a color, font, timing, or value.
 - "design briefing": summarise for a designer, in plain words: the pages and their jobs
   (sitemap), the positioning, how the brand sounds (VOICE.md), and the visual identity so far
-  (agent/visual/usage.md). Point to DESIGNERS.md. Read-only.
+  (agent/visual/usage.md and the topic files it points to). Point to DESIGNERS.md. Read-only.
 - design critique / internal QA: design-qa skill. Claude builds nothing. Small Figma fixes
   only after the designer says yes. Webflow is read-only.
+- "test the kit": kit-test skill. A fresh agent makes something nobody designed, from
+  /agent only. Every guess shows a gap. Fix the kit, not the output. Offer it after tone of
+  voice and after visual identity.
 - homepage / product page / ads / support / UI: use the matching key in retrieval-rules.yaml
 - growth review after launch: growth-review skill
 - client feedback, at any time: client-feedback skill
@@ -81,6 +85,11 @@ Saving work
 When the user says "save my work" or similar: show a short list of what changed,
 ask to confirm, then get the latest (git pull), then commit and push.
 Never commit or push without a yes.
+The commit message is the decision and why, in plain words, so anyone can later find out
+why something changed. One decision per commit where possible.
+Good: "Drop 'longevity' from the copy: the client says it sounds like a supplement ad"
+Bad: "Update VOICE.md"
+If you don't know why, ask before saving. Never invent the why.
 If a colleague changed the same file, stop. Show both versions in plain words and
 ask which to keep. Never overwrite someone else's work.
 Never change the client-template repo from a client folder.

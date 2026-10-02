@@ -1,23 +1,16 @@
 # Visual usage
 
-Fictional sample brand. Values: tokens.json. Components: components.html.
+Fictional sample brand. Start here for anything visual.
 
-## Hard rules
-```yaml
-logo:
-  - Do not stretch
-  - Do not put on busy photos without a quiet field
-  - Do not recolor outside ink, paper, or sea
-color:
-  - Do not use sea as a full-bleed background on long text pages
-  - Alert color is only for errors and returns, not decoration
-type:
-  - Do not mix a third typeface
-  - Display type is for headlines only
-layout:
-  - Do not center every block
-  - Do not use more than one accent color in a component
-imagery:
-  - No stock smiles
-  - No floating products on pure white infinity
-```
+## Where to start
+| Making | Read |
+|---|---|
+| Anything with the logo | logo.md |
+| Anything with photos | imagery.md |
+| A page, screen, or section | layout.md, typography.md, color.md, components.html |
+| An ad or social post | imagery.md, logo.md, typography.md, color.md |
+Values: tokens.json. Components: components.html. Motion values: motion.json.
+
+## When the kit doesn't cover it
+1. Find the closest rule and follow its why.
+2. If no rule is close, don't guess. Ask the designers, then add the answer to the right file.
