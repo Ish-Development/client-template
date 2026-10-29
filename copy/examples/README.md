@@ -5,3 +5,5 @@ One file per source, with the URL and date. Mark each as:
 - client: the client's own writing
 - negative: how we do not want to sound (e.g. competitors)
 - inspiration: other websites we learn from (inspiration.md). Direction only. Never reuse.
+  No site names, URLs or brand names there: a neutral label per site and the moves only
+  (user, 2026-10-07).
