@@ -6,7 +6,7 @@ One folder per page, named after the page in agent/site-plan.yaml.
     └── page-slug/
         ├── notes.md               raw material, who the page is for
         ├── outline.md             sections in order, from section-library.md
-        ├── draft-version-one.md
+        ├── draft-version-1.md
         └── review.md              optional feedback
 
 Only create the files a page needs. Number versions: version one, two, three.

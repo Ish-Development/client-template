@@ -59,7 +59,7 @@ Show the drafts. The user edits.
 
 ## 5. Test on a real section
 Pick one section from sitemap/index.html, usually the home page hero. Write it in the
-voice into copy/<page>/draft-version-one.md. Run cw-voice-check and cw-ai-check.
+voice into copy/<page>/draft-version-1.md. Run cw-voice-check and cw-ai-check.
 Show the result and what the checks found.
 
 ## 6. Keep learning

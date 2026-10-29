@@ -34,6 +34,6 @@ Plain words. No jargon like "Informer" or "Converter" in the client's docs.
 6. When the client writes or comments, read the Docs with comments included.
 
 ## When the copy comes back
-Read the Docs. Put each page's copy in copy/<page>/draft-version-one.md.
+Read the Docs. Put each page's copy in copy/<page>/draft-version-1.md.
 Offer a voice check (cw-voice-check) and a check against constraints-messaging.yaml.
 Suggest changes. Never rewrite the client's copy silently.
