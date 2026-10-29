@@ -4,6 +4,16 @@
       "Bash(npx agent-browser:*)",
       "WebSearch",
       "WebFetch"
+    ],
+    "deny": [
+      "mcp__claude_ai_Webflow__data_element_builder",
+      "mcp__claude_ai_Webflow__data_component_builder",
+      "mcp__claude_ai_Webflow__data_whtml_builder",
+      "mcp__claude_ai_Google_Drive__share_file"
+    ],
+    "ask": [
+      "mcp__claude_ai_Webflow",
+      "mcp__claude_ai_Google_Drive__trash_file"
     ]
   },
   "hooks": {
