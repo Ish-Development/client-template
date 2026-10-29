@@ -39,7 +39,7 @@ A rule here never gets an "except when". If a case needs a different rule, name 
 - **R-3 One client's material never goes into another client's work.** Source: Ish organisation rule.
   Checked by: nothing yet.
 - **R-4 Claude changes only the project's own Figma file** (the internal link in DESIGNERS.md). Source: CLAUDE.md.
-  Checked by: .claude/hooks/figma-file-guard.py asks before any change in another file, or while the link is blank.
+  Checked by: nothing yet (the guard was removed on 2026-10-29: the user saw no need for it).
 
 ## Saving
 - **S-1 Every commit says the decision and why.** Source: CLAUDE.md. Checked by: jev-commit-guard.py

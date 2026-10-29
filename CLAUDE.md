@@ -42,7 +42,7 @@ Always
    or a date. If no one has said, write "Revisit if: not set" and ask. Never invent it.
    Why: "for now" with no end reads as forever to an agent with no memory.
 11. Figma: work only in the project's internal file, linked in DESIGNERS.md. Any other file, or no link
-   yet: ask first. The Figma file guard (a hook) asks before every change outside that file.
+   yet: ask first.
 
 Tasks, in workflow order
 - new project / "let's go": kickoff skill
