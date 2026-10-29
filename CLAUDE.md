@@ -6,6 +6,7 @@ Read before writing copy, research, or UI.
 Where things live
 - /agent: the brand system, in forms Claude can use. Source of truth for all output.
   agent/visual/ holds tokens, usage, components, SVGs, motion, and demos.
+  agent/invariants.md lists the rules that hold everywhere and what checks each.
 - /research: evidence. Research output goes here only.
 - /sitemap: the black and white HTML sitemap for the client.
 - /copy: page copy drafts, one folder per page. Drafts are working notes, often only part of a page;

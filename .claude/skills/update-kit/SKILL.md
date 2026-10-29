@@ -18,7 +18,7 @@ Kit files: the method. Safe to replace with the template version.
 - .claude/settings.json and everything in .claude/skills/
 - .claude/hooks/ and .claude/scripts/. Two parts stay the client's: the Figma IDs filled in at the top of
   the figma-*.js scripts, and thresholds or questions tuned in jev-copy-review.py. Keep those lines.
-- agent/research-agent.md, agent/retrieval-rules.yaml, agent/site-jobs.md
+- agent/research-agent.md, agent/retrieval-rules.yaml, agent/site-jobs.md, agent/invariants.md
 - copy/README.md, copy/examples/README.md, growth/README.md, growth/report-template.md
 - agent/visual/README.md, qa/README.md, human/visual-sources/README.md
 - package.json, .gitignore, README.md, DESIGNERS.md
