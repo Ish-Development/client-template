@@ -67,7 +67,9 @@ Round 4: the workshop
    connector, find the Sections page, and write its ID into SECTIONS_PAGE_ID in .claude/scripts/figma-read-library.js
    and figma-rules-check.js. Ask for the client-facing file too; if there isn't one yet, leave it blank.
    No copy yet: leave the blanks and say so. The Figma file guard asks before any change in Figma until the link is in.
-6. Show a short summary: what is filled, what is blank.
-7. Offer the next step:
+6. Jev: run `python3 .claude/hooks/jev.py`. If it says Jev is off, tell the user in plain words and how to switch
+   it on (one line in ~/.ish/.env, once per computer). Never put the key in the project.
+7. Show a short summary: what is filled, what is blank.
+8. Offer the next step:
    - No workshop yet: "Want me to run the research pass before the workshop?"
    - Workshop done: "Want me to run the research pass after the workshop?"

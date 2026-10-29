@@ -303,6 +303,10 @@ Set me up for the Ish client template.
 | Webflow | Visual sources, site QA, growth review |
 | Google Drive | The client's folder: What we found, Positioning summary, copy Docs |
 
+**Jev key, once per computer:** Jev checks commits, copy drafts and designs. It needs one key for all projects,
+stored outside every project. Ask Claude: `help me add the Jev key to ~/.ish/.env`. Without it, Jev's checks are
+skipped and Claude says so at the start of each session.
+
 **Optional:** a free Google PageSpeed API key makes speed checks reliable. Ask Claude: `help me add a PageSpeed API key as PSI_API_KEY`.
 
 Each client folder installs its own research browser the first time you say `let's go`. You don't need to do anything.

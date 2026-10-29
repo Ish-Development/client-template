@@ -9,16 +9,20 @@ ROOT = os.environ.get("CLAUDE_PROJECT_DIR") or os.path.dirname(os.path.dirname(o
 API = "https://api.typesafe.ai/v1/systemone"
 
 
+USER_ENV = os.path.expanduser("~/.ish/.env")  # one key per computer, for every project; outside every repo
+
+
 def key():
-    """JEV_API_KEY from the environment or the project's .env (never printed)."""
+    """JEV_API_KEY from the environment, the project's .env, or ~/.ish/.env (never printed)."""
     if os.environ.get("JEV_API_KEY"):
         return os.environ["JEV_API_KEY"]
-    try:
-        for line in open(os.path.join(ROOT, ".env")):
-            if line.startswith("JEV_API_KEY="):
-                return line.split("=", 1)[1].strip()
-    except OSError:
-        pass
+    for path in (os.path.join(ROOT, ".env"), USER_ENV):
+        try:
+            for line in open(path):
+                if line.startswith("JEV_API_KEY="):
+                    return line.split("=", 1)[1].strip()
+        except OSError:
+            pass
     return None
 
 
@@ -59,3 +63,11 @@ def client_name():
 def read(rel):
     with open(os.path.join(ROOT, rel)) as f:
         return f.read()
+
+
+
+if __name__ == "__main__":  # SessionStart: say so when Jev is off, instead of skipping in silence
+    if not key():
+        print("Jev is off: no JEV_API_KEY in ~/.ish/.env or the project's .env, so the commit guard, copy review and "
+              "task router are skipped. Tell the user once, in plain words. To switch it on: one line "
+              "JEV_API_KEY=<key> in ~/.ish/.env (once per computer; never in the project).")

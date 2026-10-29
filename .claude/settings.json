@@ -23,6 +23,11 @@
           {
             "type": "command",
             "command": "if git rev-parse --is-inside-work-tree >/dev/null 2>&1; then if git pull --ff-only --quiet >/dev/null 2>&1; then echo 'Got the latest version from GitHub.'; else echo 'Could not get the latest version from GitHub automatically. Tell the user in plain words, check git status, and ask before changing anything.'; fi; fi"
+          },
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/jev.py\" 2>/dev/null || true",
+            "timeout": 10
           }
         ]
       }
