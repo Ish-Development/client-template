@@ -27,14 +27,17 @@ Put everything in copy/examples/, one file per source, with the URL and date.
    you like about each if you know."
 2. Read each site like a buyer would: home page and 2-3 key pages. Public pages only,
    follow the browsing rules in agent/research-agent.md.
-3. Write copy/examples/inspiration.md. For each site: URL, date, and the voice moves you
-   observed: sentence length, rhythm, word choice, how headlines and buttons are written,
-   how they handle proof. Short quotes only, to show a move.
+3. Write copy/examples/inspiration.md. For each site: a neutral label (number and kind of
+   business, e.g. "2. Payments platform"), the date, and the voice moves you observed:
+   sentence length, rhythm, word choice, how headlines and buttons are written, how they
+   handle proof. Short quotes only, to show a move. Never write the site's name, URL, or
+   its brand, rival or customer names: use [brand], [rival], [customer] inside quotes.
+   Nowhere in the project names where inspiration comes from (user, 2026-10-07).
 4. Inspiration is direction, never material. Never reuse their phrases, claims, or
    structure word for word. Mark every quote in the file as: do not reuse.
 5. Write 3 voice directions. Each one:
    - a name and 2-3 lines describing it as tensions ("direct without being blunt")
-   - which inspiration site and which buyer role it leans on
+   - which inspiration (by its label) and which buyer role it leans on
    - the same sample lines in that voice: homepage headline, button, error message,
      email subject, one short paragraph about what the client does
    Check samples against constraints-messaging.yaml and brand-positioning.yaml.

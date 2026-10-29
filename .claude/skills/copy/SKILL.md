@@ -21,6 +21,9 @@ Gather, for this section only:
 - the journey question (journey.yaml) and the search question (site-plan.yaml)
 - proof we can use (brand-positioning.yaml proof_points, research/sources.md)
 - limits (constraints-messaging.yaml)
+- the layout's elements: read the section in Figma and list every visible text element with
+  its count, e.g. "4 steps × title, subtitle, 3 points, stat; button". Compound Writing only
+  writes what the brief lists, so the list goes into the brief word for word.
 Write it to copy/<page>/notes.md under the section's name.
 
 ## 3. Write
@@ -38,6 +41,8 @@ back after each save. Fix each rule flag, or tell the user why the line stays; m
 "fact to check" has a source or a "To confirm" line. Jev's flags are evidence: VOICE.md wins. When the
 user overrules a flag, tune .claude/hooks/jev-copy-review.py (question or threshold), not the copy.
 Needs JEV_API_KEY in .env; without it the review is skipped.
+Compare the copy with the element list: every element has copy. If one has no true content,
+stop and propose another layout to the user. Never hide an element to make the copy fit.
 
 ## 5. Save and show in the wireframe
 - Write the copy to copy/<page>/draft-version-N.md under the section's name.

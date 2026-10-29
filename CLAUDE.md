@@ -50,6 +50,9 @@ Tasks, in workflow order
 - copy, the client writes it: copy-brief skill
 - visual identity: visual-identity skill. Designers make it (Figma, HTML, code, anything).
   Claude only reads and stores it. Never invent a color, font, timing, or value.
+- "give me a summary" / "where are we" / "onboard me" (e.g. a colleague or the project manager starting
+  work): onboarding skill. One page at project-manager level, from the newest status file in human/
+  plus what changed after its date. Read-only unless asked to save it as a new status file.
 - "design briefing": summarise for a designer, in plain words: the pages and their jobs
   (sitemap), the positioning, how the brand sounds (VOICE.md), and the visual identity so far
   (agent/visual/usage.md and the topic files it points to). Point to DESIGNERS.md. Read-only.
@@ -63,6 +66,10 @@ Tasks, in workflow order
 - client feedback, at any time: client-feedback skill
 - "update the kit": update-kit skill
 - Every page has one job and one next action from agent/site-plan.yaml
+
+Inspiration stays anonymous. Nowhere in the project (agent/, skills, copy/, qa/, human/) write the names, URLs or
+brand words of the sites we take inspiration from. Describe the move; label the site by kind ("Payments platform").
+Rules point to copy/examples/inspiration.md (user, 2026-10-07).
 
 Compound Writing's writing home is split across the kit: VOICE.md and STYLE.md in agent/,
 examples in copy/examples/, drafts in copy/<page>/. Audience lives in

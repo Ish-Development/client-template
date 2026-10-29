@@ -16,6 +16,8 @@ homepage:
 product_page:
   read:
     - site-plan.yaml
+    - section-library.md
+    - brand-positioning.yaml
     - VOICE.md
     - STYLE.md
     - buying-committee.yaml
