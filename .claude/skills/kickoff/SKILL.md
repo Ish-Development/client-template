@@ -60,7 +60,14 @@ Round 4: the workshop
    (ID 0ABw6YFhCn2x9Uk9PVA). If one with that name already exists there, use it instead.
    Save the link in agent/research-brief.md under Google Drive folder. Share nothing.
    If Google Drive is not connected, help the user connect it, or skip and say so.
-5. Show a short summary: what is filled, what is blank.
-6. Offer the next step:
+5. Figma: ask "Have you copied the Figma starter for this client? Paste the link to the internal file."
+   The starter is "Client Name – Website Design Foundation (Internal)":
+   https://www.figma.com/design/KBen3TQG3Rk3SIBZOHurxz
+   On a link: write it into DESIGNERS.md ("Two Figma files", Internal). Read the file's pages with the Figma
+   connector, find the Sections page, and write its ID into SECTIONS_PAGE_ID in .claude/scripts/figma-read-library.js
+   and figma-rules-check.js. Ask for the client-facing file too; if there isn't one yet, leave it blank.
+   No copy yet: leave the blanks and say so. The Figma file guard asks before any change in Figma until the link is in.
+6. Show a short summary: what is filled, what is blank.
+7. Offer the next step:
    - No workshop yet: "Want me to run the research pass before the workshop?"
    - Workshop done: "Want me to run the research pass after the workshop?"

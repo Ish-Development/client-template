@@ -63,6 +63,17 @@
             "statusMessage": "Jev is checking the commit message"
           }
         ]
+      },
+      {
+        "matcher": "mcp__claude_ai_Figma__use_figma",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 \"$CLAUDE_PROJECT_DIR/.claude/hooks/figma-file-guard.py\" 2>/dev/null || true",
+            "timeout": 10,
+            "statusMessage": "Checking this is the project's Figma file"
+          }
+        ]
       }
     ]
   },
