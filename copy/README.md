@@ -9,6 +9,9 @@ One folder per page, named after the page in agent/site-plan.yaml.
         ├── draft-version-1.md
         └── review.md              optional feedback
 
+The current copy is what is on the page in Figma. Drafts here are working notes: a newer draft often
+changes only some lines and points back to an earlier one. Check Figma before reusing a line from a draft.
+
 Only create the files a page needs. Number versions: version one, two, three.
 Never call a file final.
 

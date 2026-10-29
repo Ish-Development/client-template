@@ -15,6 +15,9 @@ Match it to agent/site-plan.yaml. If it is unclear, show the page's sections wit
 numbers and ask which.
 
 ## 2. Brief for that part
+The current copy is what is on the page in Figma. Drafts in copy/<page>/ are working notes: a newer draft often
+changes only some lines and points back to an earlier one. Check Figma before reusing a line from a draft.
+
 Gather, for this section only:
 - the page's job and next action, and the section's job and note (site-plan.yaml)
 - the buyer role and their objections (buying-committee.yaml)

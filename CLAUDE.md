@@ -8,7 +8,8 @@ Where things live
   agent/visual/ holds tokens, usage, components, SVGs, motion, and demos.
 - /research: evidence. Research output goes here only.
 - /sitemap: the black and white HTML sitemap for the client.
-- /copy: page copy drafts, one folder per page.
+- /copy: page copy drafts, one folder per page. Drafts are working notes, often only part of a page;
+  the current copy is on the page in Figma. Check Figma before reusing a line from a draft.
 - /qa: design critiques and internal QA reports.
 - /growth: quarterly growth reviews after launch.
 - /human: for people. Client PDFs and summaries, Figma screenshots, moodboard images, long
