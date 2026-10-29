@@ -33,6 +33,11 @@ its files live). Draft with cw-draft.
 ## 4. Check
 Run cw-voice-check and cw-ai-check. Check constraints-messaging.yaml and the
 ready-to-publish list in STYLE.md. Fix, then show the copy and what the checks found.
+Jev reviews every saved draft (copy/<page>/draft-version-N.md) on its own: a hook sends its findings
+back after each save. Fix each rule flag, or tell the user why the line stays; make sure each
+"fact to check" has a source or a "To confirm" line. Jev's flags are evidence: VOICE.md wins. When the
+user overrules a flag, tune .claude/hooks/jev-copy-review.py (question or threshold), not the copy.
+Needs JEV_API_KEY in .env; without it the review is skipped.
 
 ## 5. Save and show in the wireframe
 - Write the copy to copy/<page>/draft-version-N.md under the section's name.

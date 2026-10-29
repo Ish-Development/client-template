@@ -11,6 +11,17 @@ only with the designer's yes. Load the design_qa files from agent/retrieval-rule
 ## A. Figma design critique
 1. Ask for the Figma link to the page or frames to check.
 2. Read them with the Figma connector (design context, screenshots, variables).
+   Then run the Jev design check: run .claude/scripts/figma-read-page.js in use_figma (set NODE_ID
+   to the page frame) and .claude/scripts/figma-read-library.js, save both results as JSON, and run
+   `python3 .claude/scripts/jev-design-check.py page.json --page <site-plan id> --library library.json
+   --draft copy/<page>/draft-version-N.md`. It checks plan coverage and order, the next action, layout
+   fit, Figma against the draft, placeholders and switched-off elements. Put its findings in the critique
+   as design questions; Jev reads text, not pixels, and the designer decides. Layout fit only runs for
+   sets whose layouts have a description in Figma (a gap the designer can close).
+   Then run the Figma rules check: .claude/scripts/figma-rules-check.js in use_figma, ROOT_ID set to the page
+   frame (copy rules) and to each component set the page uses (style rules). It lists every break of the rules
+   in DESIGNERS.md with its layer. Hand-set values go under Small fixes; a rule broken across many sets (e.g.
+   all borders) is one design question, not a list of fixes.
 3. Check against the kit:
    - Visual system: colors, type, spacing, radius, effects match agent/visual/tokens.json.
      Flag values that are off-token or not bound to a variable.

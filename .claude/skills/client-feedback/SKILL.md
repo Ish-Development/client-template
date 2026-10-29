@@ -23,6 +23,9 @@ voice feedback arrives here.
 | Colors, type, layout, imagery | Visual identity / Design | agent/visual/, the design sources |
 | A fact about the business we got wrong | Research | research/, then the file that used it |
 
+   First pass with Jev: put the points in a text file, one per line, and run
+   `python3 .claude/scripts/jev-feedback-sort.py points.txt`. It reads the table above. Check every row
+   yourself; a point marked "ask" goes to the user as a question, never a guess.
 3. Show the sorted list. For each point: what you would change, and which later steps
    it touches (e.g. a positioning change means copy must be checked again).
 4. Ask before changing anything. Change one step at a time, starting with the earliest.

@@ -53,7 +53,7 @@ Round 4: the workshop
 
 ## After the last round
 1. Write every answer into agent/research-brief.md. Blank stays blank.
-2. Replace CLIENT_NAME with the client name in agent/, human/, and research/. Never touch examples/.
+2. Replace CLIENT_NAME with the client name in agent/, human/, research/ and DESIGNERS.md. Never touch examples/.
 3. If a workshop link was given: use the workshop skill to read it into the kit.
 4. Client Drive folder: ask "Should I create the client's folder in Google Drive?"
    On yes, create a folder named after the client inside the Ish Drive folder
