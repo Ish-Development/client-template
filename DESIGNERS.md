@@ -31,6 +31,7 @@ Set up the file so Claude can read it and check it.
 4. **Name components the same way.** A component called `Contact module` in Figma is the `Contact module` in the section library.
 5. **Write your rules on the canvas.** Logo clear space, color use, what never to do. Claude reads them into the hard rules.
 6. **Logos and icons as vectors.** Claude exports them as SVG. Never only PNG.
+7. **Follow the interface rules.** `agent/interface-rules.md` part 1: concentric corners, icon lines that match the text, 24px hit areas, image outlines, contrast, spacing between groups. Part 2 is for whoever builds the site.
 
 When a page is ready, send Claude the Figma link to the frame.
 

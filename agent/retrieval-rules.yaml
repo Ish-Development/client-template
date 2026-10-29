@@ -12,6 +12,7 @@ homepage:
     - STYLE.md
     - visual/tokens.json
     - constraints-messaging.yaml
+    - interface-rules.md
 
 product_page:
   read:
@@ -23,6 +24,7 @@ product_page:
     - buying-committee.yaml
     - constraints-messaging.yaml
     - visual/tokens.json
+    - interface-rules.md
 
 ads_or_social:
   read:
@@ -49,12 +51,14 @@ ui_or_landing_build:
     - visual/motion.json
     - visual/components.html
     - VOICE.md
+    - interface-rules.md
 
 support_copy:
   read:
     - VOICE.md
     - STYLE.md
     - constraints-messaging.yaml
+    - interface-rules.md
 
 site_structure:
   read:
@@ -77,6 +81,7 @@ copy_client_brief:
     - buying-committee.yaml
     - STYLE.md
     - constraints-messaging.yaml
+    - interface-rules.md
 
 research:
   read:
@@ -140,6 +145,7 @@ design_qa:
     - visual/motion.json
     - visual/components.html
     - constraints-messaging.yaml
+    - interface-rules.md
 
 kit_test:
   read:
