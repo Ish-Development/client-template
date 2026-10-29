@@ -37,6 +37,9 @@ Always
 9. Run the browser as npx agent-browser. If it is missing, run npm run setup.
    When browsing, follow the browsing rules in agent/research-agent.md. Public pages only.
    Never log in, never get around a paywall or block. If blocked, say so and move on.
+10. A rule that only holds for now ends with "Revisit if:" and what ends it: a number, an event
+   or a date. If no one has said, write "Revisit if: not set" and ask. Never invent it.
+   Why: "for now" with no end reads as forever to an agent with no memory.
 
 Tasks, in workflow order
 - new project / "let's go": kickoff skill
